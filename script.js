@@ -28,7 +28,7 @@ function normalizarTexto(texto) {
         .trim();
 }
 
-// Buscar obras sociales
+// Buscar obras sociales con scoring para mejor relevancia
 function buscarObrasSociales(termino) {
     if (!termino || termino.length < 2) {
         return [];
@@ -36,21 +36,60 @@ function buscarObrasSociales(termino) {
 
     const terminoNormalizado = normalizarTexto(termino);
     
-    return obrasSociales.filter(obra => {
-        // Buscar en el nombre
+    // Buscar y asignar score a cada resultado
+    const resultados = obrasSociales.map(obra => {
+        let score = 0;
+        let coincide = false;
+        
         const nombreNormalizado = normalizarTexto(obra.nombre);
-        if (nombreNormalizado.includes(terminoNormalizado)) {
-            return true;
-        }
         
         // Buscar en las siglas (separadas por comas)
         if (obra.sigla) {
-            const siglas = obra.sigla.split(',').map(s => normalizarTexto(s.trim()));
-            return siglas.some(sigla => sigla.includes(terminoNormalizado));
+            const siglas = obra.sigla.split(',').map(s => s.trim());
+            
+            for (const sigla of siglas) {
+                const siglaNormalizada = normalizarTexto(sigla);
+                
+                // Coincidencia exacta en sigla = máxima prioridad
+                if (siglaNormalizada === terminoNormalizado) {
+                    score = 1000;
+                    coincide = true;
+                    break;
+                }
+                // Sigla comienza con el término = alta prioridad
+                else if (siglaNormalizada.startsWith(terminoNormalizado)) {
+                    score = Math.max(score, 500);
+                    coincide = true;
+                }
+                // Sigla contiene el término = media prioridad
+                else if (siglaNormalizada.includes(terminoNormalizado)) {
+                    score = Math.max(score, 250);
+                    coincide = true;
+                }
+            }
         }
         
-        return false;
-    });
+        // Buscar en el nombre (menor prioridad que siglas)
+        if (nombreNormalizado === terminoNormalizado) {
+            score = Math.max(score, 800);
+            coincide = true;
+        }
+        else if (nombreNormalizado.startsWith(terminoNormalizado)) {
+            score = Math.max(score, 400);
+            coincide = true;
+        }
+        else if (nombreNormalizado.includes(terminoNormalizado)) {
+            score = Math.max(score, 100);
+            coincide = true;
+        }
+        
+        return { obra, score, coincide };
+    })
+    .filter(item => item.coincide)
+    .sort((a, b) => b.score - a.score)
+    .map(item => item.obra);
+    
+    return resultados;
 }
 
 // Mostrar sugerencias

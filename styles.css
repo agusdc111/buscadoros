@@ -5,93 +5,113 @@
 }
 
 body {
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+    background: linear-gradient(135deg, #0f172a 0%, #1e293b 50%, #0f172a 100%);
     min-height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
     padding: 20px;
+    color: #e2e8f0;
+    position: relative;
+    overflow-x: hidden;
+}
+
+body::before {
+    content: '';
+    position: fixed;
+    top: -50%;
+    left: -50%;
+    width: 200%;
+    height: 200%;
+    background: 
+        radial-gradient(circle at 20% 50%, rgba(59, 130, 246, 0.1) 0%, transparent 50%),
+        radial-gradient(circle at 80% 80%, rgba(168, 85, 247, 0.1) 0%, transparent 50%),
+        radial-gradient(circle at 40% 10%, rgba(34, 197, 94, 0.08) 0%, transparent 50%);
+    z-index: 0;
+    pointer-events: none;
 }
 
 .container {
     width: 100%;
-    max-width: 900px;
-    animation: fadeIn 0.6s ease-in;
-}
-
-@keyframes fadeIn {
-    from {
-        opacity: 0;
-        transform: translateY(-20px);
-    }
-    to {
-        opacity: 1;
-        transform: translateY(0);
-    }
+    max-width: 850px;
+    position: relative;
+    z-index: 1;
 }
 
 .header {
     text-align: center;
-    color: white;
-    margin-bottom: 50px;
+    margin-bottom: 48px;
 }
 
 .header h1 {
-    font-size: 3.5rem;
+    font-size: 3rem;
     font-weight: 700;
-    margin-bottom: 15px;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+    background: linear-gradient(135deg, #60a5fa 0%, #a78bfa 50%, #34d399 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    margin-bottom: 12px;
+    letter-spacing: -1px;
 }
 
 .subtitle {
-    font-size: 1.2rem;
-    opacity: 0.9;
+    font-size: 1.1rem;
+    color: #94a3b8;
+    font-weight: 400;
 }
 
 .search-container {
     position: relative;
-    margin-bottom: 30px;
+    margin-bottom: 24px;
 }
 
 .search-box {
     display: flex;
-    background: white;
-    border-radius: 50px;
+    background: rgba(30, 41, 59, 0.8);
+    backdrop-filter: blur(10px);
+    border-radius: 16px;
     overflow: hidden;
-    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.3);
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border: 2px solid rgba(148, 163, 184, 0.2);
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 24px rgba(0, 0, 0, 0.4);
 }
 
 .search-box:focus-within {
-    transform: translateY(-2px);
-    box-shadow: 0 15px 50px rgba(0, 0, 0, 0.4);
+    border-color: #3b82f6;
+    box-shadow: 0 4px 32px rgba(59, 130, 246, 0.3);
 }
 
 #searchInput {
     flex: 1;
     border: none;
     outline: none;
-    padding: 25px 30px;
-    font-size: 1.3rem;
-    color: #333;
+    padding: 20px 24px;
+    font-size: 1.05rem;
+    color: #f1f5f9;
+    background: transparent;
 }
 
 #searchInput::placeholder {
-    color: #aaa;
+    color: #64748b;
 }
 
 #searchButton {
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    background: linear-gradient(135deg, #3b82f6 0%, #2563eb 100%);
     border: none;
-    padding: 0 35px;
+    padding: 0 32px;
     cursor: pointer;
     color: white;
-    transition: opacity 0.3s ease;
+    transition: all 0.2s ease;
 }
 
 #searchButton:hover {
-    opacity: 0.9;
+    background: linear-gradient(135deg, #2563eb 0%, #1d4ed8 100%);
+    transform: translateX(-2px);
+}
+
+#searchButton:active {
+    transform: scale(0.98);
 }
 
 #searchButton svg {
@@ -99,24 +119,26 @@ body {
 }
 
 .suggestions {
-    background: white;
-    border-radius: 15px;
-    margin-top: 10px;
-    max-height: 300px;
+    background: rgba(30, 41, 59, 0.95);
+    backdrop-filter: blur(10px);
+    border-radius: 16px;
+    margin-top: 8px;
+    max-height: 360px;
     overflow-y: auto;
-    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
+    border: 1px solid rgba(148, 163, 184, 0.2);
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.5);
     display: none;
 }
 
 .suggestions.show {
     display: block;
-    animation: slideDown 0.3s ease;
+    animation: slideDown 0.2s ease;
 }
 
 @keyframes slideDown {
     from {
         opacity: 0;
-        transform: translateY(-10px);
+        transform: translateY(-8px);
     }
     to {
         opacity: 1;
@@ -125,38 +147,69 @@ body {
 }
 
 .suggestion-item {
-    padding: 15px 25px;
+    padding: 16px 20px;
     cursor: pointer;
-    transition: background-color 0.2s ease;
-    border-bottom: 1px solid #f0f0f0;
+    transition: all 0.15s ease;
+    border-bottom: 1px solid rgba(148, 163, 184, 0.1);
+    position: relative;
 }
 
 .suggestion-item:last-child {
     border-bottom: none;
 }
 
+.suggestion-item::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 3px;
+    background: linear-gradient(135deg, #3b82f6, #8b5cf6);
+    opacity: 0;
+    transition: opacity 0.15s ease;
+}
+
 .suggestion-item:hover {
-    background-color: #f8f9fa;
+    background-color: rgba(59, 130, 246, 0.1);
+}
+
+.suggestion-item:hover::before {
+    opacity: 1;
 }
 
 .suggestion-name {
-    font-weight: 600;
-    color: #333;
-    margin-bottom: 5px;
+    font-weight: 500;
+    color: #f1f5f9;
+    margin-bottom: 4px;
+    font-size: 0.95rem;
 }
 
 .suggestion-siglas {
     font-size: 0.85rem;
-    color: #666;
+    color: #94a3b8;
 }
 
 .results {
-    background: white;
-    border-radius: 20px;
-    padding: 40px;
-    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.3);
+    background: rgba(30, 41, 59, 0.8);
+    backdrop-filter: blur(10px);
+    border-radius: 16px;
+    padding: 48px;
+    border: 1px solid rgba(148, 163, 184, 0.2);
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.5);
     display: none;
-    animation: fadeIn 0.5s ease;
+    animation: fadeIn 0.3s ease;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: scale(0.98);
+    }
+    to {
+        opacity: 1;
+        transform: scale(1);
+    }
 }
 
 .results.show {
@@ -168,134 +221,273 @@ body {
 }
 
 .result-name {
-    font-size: 2.5rem;
-    font-weight: 700;
-    color: #333;
-    margin-bottom: 20px;
+    font-size: 2rem;
+    font-weight: 600;
+    color: #f1f5f9;
+    margin-bottom: 24px;
+    line-height: 1.3;
 }
 
 .result-type {
     display: inline-block;
-    padding: 15px 40px;
-    border-radius: 50px;
-    font-size: 1.3rem;
-    font-weight: 600;
-    margin-top: 10px;
+    padding: 18px 48px;
+    border-radius: 12px;
+    font-size: 1.4rem;
+    font-weight: 700;
+    margin-top: 16px;
     text-transform: uppercase;
-    letter-spacing: 1px;
+    letter-spacing: 2px;
+    position: relative;
+    overflow: hidden;
+}
+
+.result-type::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.1);
+    transition: left 0.5s ease;
+}
+
+.result-type:hover::before {
+    left: 100%;
 }
 
 .type-sindical {
-    background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
-    color: white;
+    background: linear-gradient(135deg, #f59e0b 0%, #d97706 100%);
+    color: #fff;
+    box-shadow: 0 4px 16px rgba(245, 158, 11, 0.3);
 }
 
 .type-prepaga {
-    background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);
-    color: white;
+    background: linear-gradient(135deg, #3b82f6 0%, #2563eb 100%);
+    color: #fff;
+    box-shadow: 0 4px 16px rgba(59, 130, 246, 0.3);
 }
 
 .type-estatal {
-    background: linear-gradient(135deg, #43e97b 0%, #38f9d7 100%);
-    color: white;
+    background: linear-gradient(135deg, #10b981 0%, #059669 100%);
+    color: #fff;
+    box-shadow: 0 4px 16px rgba(16, 185, 129, 0.3);
 }
 
 .result-siglas {
-    margin-top: 25px;
-    padding-top: 25px;
-    border-top: 2px solid #f0f0f0;
+    margin-top: 32px;
+    padding-top: 32px;
+    border-top: 1px solid rgba(148, 163, 184, 0.2);
 }
 
 .result-siglas-title {
-    font-size: 1rem;
-    color: #666;
-    margin-bottom: 10px;
+    font-size: 0.875rem;
+    color: #94a3b8;
+    margin-bottom: 8px;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
 }
 
 .result-siglas-list {
-    font-size: 1.1rem;
-    color: #333;
-    font-weight: 500;
+    font-size: 1.05rem;
+    color: #cbd5e1;
+    font-weight: 400;
+    line-height: 1.6;
 }
 
 .no-results {
     text-align: center;
-    padding: 40px;
+    padding: 48px 24px;
 }
 
 .no-results-icon {
     font-size: 4rem;
     margin-bottom: 20px;
+    opacity: 0.3;
 }
 
 .no-results-title {
-    font-size: 1.8rem;
+    font-size: 1.5rem;
     font-weight: 600;
-    color: #333;
-    margin-bottom: 10px;
+    color: #f1f5f9;
+    margin-bottom: 12px;
 }
 
 .no-results-text {
-    font-size: 1.1rem;
-    color: #666;
+    font-size: 1rem;
+    color: #94a3b8;
 }
 
 .stats {
     text-align: center;
-    color: white;
-    margin-top: 30px;
-    opacity: 0.8;
-    font-size: 0.95rem;
+    color: #64748b;
+    margin-top: 24px;
+    font-size: 0.875rem;
 }
 
-/* Scrollbar personalizado */
+/* Scrollbar */
 .suggestions::-webkit-scrollbar {
     width: 8px;
 }
 
 .suggestions::-webkit-scrollbar-track {
-    background: #f1f1f1;
-    border-radius: 10px;
+    background: rgba(15, 23, 42, 0.5);
 }
 
 .suggestions::-webkit-scrollbar-thumb {
-    background: #667eea;
-    border-radius: 10px;
+    background: rgba(59, 130, 246, 0.5);
+    border-radius: 4px;
 }
 
 .suggestions::-webkit-scrollbar-thumb:hover {
-    background: #764ba2;
+    background: rgba(59, 130, 246, 0.7);
 }
 
 /* Responsive */
+@media (max-width: 1024px) {
+    .container {
+        max-width: 90%;
+    }
+}
+
 @media (max-width: 768px) {
+    body {
+        padding: 16px;
+    }
+    
+    .header {
+        margin-bottom: 36px;
+    }
+    
     .header h1 {
-        font-size: 2.5rem;
+        font-size: 2rem;
+        letter-spacing: -0.5px;
     }
     
     .subtitle {
-        font-size: 1rem;
+        font-size: 0.9rem;
+    }
+    
+    .search-box {
+        border-radius: 14px;
     }
     
     #searchInput {
-        padding: 20px 25px;
-        font-size: 1.1rem;
+        padding: 16px 18px;
+        font-size: 0.95rem;
     }
     
     #searchButton {
-        padding: 0 25px;
+        padding: 0 20px;
+    }
+    
+    #searchButton svg {
+        width: 20px;
+        height: 20px;
+    }
+    
+    .suggestions {
+        max-height: 280px;
+        border-radius: 14px;
+    }
+    
+    .suggestion-item {
+        padding: 14px 16px;
+    }
+    
+    .suggestion-name {
+        font-size: 0.9rem;
+    }
+    
+    .suggestion-siglas {
+        font-size: 0.8rem;
+    }
+    
+    .results {
+        padding: 32px 20px;
+        border-radius: 14px;
     }
     
     .result-name {
-        font-size: 2rem;
+        font-size: 1.5rem;
+        margin-bottom: 20px;
     }
     
     .result-type {
         font-size: 1.1rem;
-        padding: 12px 30px;
+        padding: 14px 32px;
+        letter-spacing: 1.5px;
+    }
+    
+    .result-siglas {
+        margin-top: 28px;
+        padding-top: 28px;
+    }
+    
+    .result-siglas-list {
+        font-size: 0.95rem;
+    }
+    
+    .no-results {
+        padding: 36px 20px;
+    }
+    
+    .no-results-icon {
+        font-size: 3rem;
+    }
+    
+    .no-results-title {
+        font-size: 1.25rem;
+    }
+    
+    .no-results-text {
+        font-size: 0.9rem;
+    }
+}
+
+@media (max-width: 480px) {
+    body {
+        padding: 12px;
+    }
+    
+    .header {
+        margin-bottom: 28px;
+    }
+    
+    .header h1 {
+        font-size: 1.75rem;
+    }
+    
+    .subtitle {
+        font-size: 0.85rem;
+    }
+    
+    #searchInput {
+        padding: 14px 16px;
+        font-size: 0.9rem;
+    }
+    
+    #searchButton {
+        padding: 0 18px;
     }
     
     .results {
-        padding: 30px 20px;
+        padding: 28px 16px;
+    }
+    
+    .result-name {
+        font-size: 1.3rem;
+        margin-bottom: 16px;
+    }
+    
+    .result-type {
+        font-size: 1rem;
+        padding: 12px 28px;
+        letter-spacing: 1.2px;
+    }
+    
+    .result-siglas-list {
+        font-size: 0.9rem;
     }
 }

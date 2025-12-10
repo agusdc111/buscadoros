@@ -2080,5 +2080,11 @@
     "sigla": "",
     "tipo": "PREPAGA",
     "provincia": "CAPITAL FEDERAL"
+  },
+  {
+    "nombre": "IOMA",
+    "sigla": "IOMA",
+    "tipo": "ESTATAL",
+    "provincia": "CAPITAL FEDERAL"
   }
 ]

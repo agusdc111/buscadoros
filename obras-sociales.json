@@ -1,0 +1,2084 @@
+[
+  {
+    "nombre": "ASOCIACION MUTUAL SANCOR",
+    "sigla": "",
+    "tipo": "NO ESPECIFICADO",
+    "provincia": "SANTA FE"
+  },
+  {
+    "nombre": "OBRA SOCIAL DEL  PERSONAL DE LA INDUSTRIA GRAFICA DE LA PROVINCIA DE CORDOBA",
+    "sigla": "",
+    "tipo": "NO ESPECIFICADO",
+    "provincia": "CORDOBA"
+  },
+  {
+    "nombre": "OBRA SOCIAL PORTUARIOS ARGENTINOS DE MAR DEL PLATA",
+    "sigla": "OSPA",
+    "tipo": "SINDICAL",
+    "provincia": "BUENOS AIRES"
+  },
+  {
+    "nombre": "OBRA SOCIAL DEL PERSONAL DEL ORGANISMO DE CONTROL EXTERNO",
+    "sigla": "OSPOCE",
+    "tipo": "SINDICAL",
+    "provincia": "CAPITAL FEDERAL"
+  },
+  {
+    "nombre": "OBRA SOCIAL DE CAPITANES, PILOTOS Y PATRONES DE PESCA",
+    "sigla": "OSPESCA",
+    "tipo": "SINDICAL",
+    "provincia": "BUENOS AIRES"
+  },
+  {
+    "nombre": "OBRA SOCIAL DE AGENTES DE LOTERIAS Y AFINES DE LA REPUBLICA  ARGENTINA",
+    "sigla": "OSALARA",
+    "tipo": "SINDICAL",
+    "provincia": "CAPITAL FEDERAL"
+  },
+  {
+    "nombre": "MUTUAL DEL PERSONAL DEL AGUA Y LA ENERGIA  DE MENDOZA",
+    "sigla": "",
+    "tipo": "NO ESPECIFICADO",
+    "provincia": "MENDOZA"
+  },
+  {
+    "nombre": "OBRA SOCIAL DE LA ACTIVIDAD DE SEGUROS, REASEGUROS, CAPITALIZACION Y AHORRO Y PRESTAMO PARA LA VIVIENDA",
+    "sigla": "OSSEG",
+    "tipo": "SINDICAL",
+    "provincia": "CAPITAL FEDERAL"
+  },
+  {
+    "nombre": "OBRA SOCIAL PARA LA ACTIVIDAD DOCENTE",
+    "sigla": "OSPLAD",
+    "tipo": "SINDICAL",
+    "provincia": "CAPITAL FEDERAL"
+  },
+  {
+    "nombre": "OBRA SOCIAL PARA EL PERSONAL DEL MINISTERIO DE ECONOMIA Y DE OBRAS Y SERVICIOS PUBLICOS",
+    "sigla": "OSME",
+    "tipo": "SINDICAL",
+    "provincia": "CAPITAL FEDERAL"
+  },
+  {
+    "nombre": "OBRA SOCIAL FERROVIARIA",
+    "sigla": "OSFE",
+    "tipo": "SINDICAL",
+    "provincia": "CAPITAL FEDERAL"
+  },
+  {
+    "nombre": "OBRA SOCIAL DE LA ASOCIACION CIVIL PROSINDICATO DE AMAS DE CASA DE LA REPUBLICA ARGENTINA",
+    "sigla": "OSSACRA",
+    "tipo": "SINDICAL",
+    "provincia": "CAPITAL FEDERAL"
+  },
+  {
+    "nombre": "OBRA SOCIAL DEL SINDICATO UNIDO DE TRABAJADORES DE LA INDUSTRIA DE AGUAS GASEOSAS DE LA PROVINCIA DE SANTA FE",
+    "sigla": "",
+    "tipo": "NO ESPECIFICADO",
+    "provincia": "SANTA FE"
+  },
+  {
+    "nombre": "OBRA SOCIAL DEL PERSONAL JERARQUICO DE LA REPUBLICA ARGENTINA PARA EL PERSONAL JERARQUICO DE LA INDUSTRIA GRAFICA Y EL PERSONAL JERARQUICO DEL AGUA Y LA ENERGIA",
+    "sigla": "OSJERA",
+    "tipo": "SINDICAL",
+    "provincia": "CAPITAL FEDERAL"
+  },
+  {
+    "nombre": "OBRA SOCIAL DE LOS  LEGISLADORES DE LA REPUBLICA ARGENTINA",
+    "sigla": "OSLERA",
+    "tipo": "SINDICAL",
+    "provincia": "CAPITAL FEDERAL"
+  },
+  {
+    "nombre": "OBRA SOCIAL DE FEDECAMARAS",
+    "sigla": "FEDECAMARAS",
+    "tipo": "SINDICAL",
+    "provincia": "CAPITAL FEDERAL"
+  },
+  {
+    "nombre": "OBRA SOCIAL PROFESIONALES DEL TURF DE LA REPUBLICA ARGENTINA",
+    "sigla": "OSPROTURA",
+    "tipo": "SINDICAL",
+    "provincia": "BUENOS AIRES"
+  },
+  {
+    "nombre": "OBRA SOCIAL DE EMPLEADOS Y PERSONAL JERARQUICO  DE LA ACTIVIDAD DEL  NEUMATICO ARGENTINO DE NEUMATICOS GOOD YEAR SRL",
+    "sigla": "OSEPJANA",
+    "tipo": "SINDICAL",
+    "provincia": "BUENOS AIRES"
+  },
+  {
+    "nombre": "OBRA SOCIAL PARA EL  PERSONAL DE EMPRESAS DE  LIMPIEZA, SERVICIOS Y MAESTRANZA DE MENDOZA",
+    "sigla": "",
+    "tipo": "NO ESPECIFICADO",
+    "provincia": "MENDOZA"
+  },
+  {
+    "nombre": "OBRA SOCIAL DEL PERSONAL JERARQUICO DEL TRANSPORTE AUTOMOTOR DE PASAJEROS DE CORDOBA Y AFINES",
+    "sigla": "",
+    "tipo": "NO ESPECIFICADO",
+    "provincia": "CORDOBA"
+  },
+  {
+    "nombre": "OBRA SOCIAL DE MINISTROS, SECRETARIOS Y SUBSECRETARIOS",
+    "sigla": "OSMISS",
+    "tipo": "SINDICAL",
+    "provincia": "CAPITAL FEDERAL"
+  },
+  {
+    "nombre": "OBRA SOCIAL DE LOS TRABAJADORES DE LA CARNE Y AFINES DE LA REPUBLICA ARGENTINA",
+    "sigla": "OSTCARA",
+    "tipo": "SINDICAL",
+    "provincia": "CAPITAL FEDERAL"
+  },
+  {
+    "nombre": "OBRA SOCIAL DE LOS TRABAJADORES ASOCIADOS A LA ASOCIACION MUTUAL MERCANTIL ARGENTINA",
+    "sigla": "OSTAMMA",
+    "tipo": "NO ESPECIFICADO",
+    "provincia": "CORDOBA"
+  },
+  {
+    "nombre": "OBRA SOCIAL DE LA CAMARA DE EMPRESARIOS DE AGENCIAS DE REMISES DE ARGENTINA",
+    "sigla": "OSCEARA",
+    "tipo": "SINDICAL",
+    "provincia": "BUENOS AIRES"
+  },
+  {
+    "nombre": "OBRA SOCIAL ASOCIACION MUTUAL METALURGICA VILLA CONSTITUCION",
+    "sigla": "OSAMMVC",
+    "tipo": "NO ESPECIFICADO",
+    "provincia": "SANTA FE"
+  },
+  {
+    "nombre": "OBRA SOCIAL DEL PERSONAL ASOCIADO A ASOCIACION MUTUAL SANCOR",
+    "sigla": "OSPERSAAMS",
+    "tipo": "SINDICAL",
+    "provincia": "CAPITAL FEDERAL"
+  },
+  {
+    "nombre": "OBRA SOCIAL DE LOS INMIGRANTES ESPAÑOLES Y SUS DESCENDIENTES RESIDENTES EN LA REPUBLICA ARGENTINA",
+    "sigla": "OSPAÑA",
+    "tipo": "SINDICAL",
+    "provincia": "CAPITAL FEDERAL"
+  },
+  {
+    "nombre": "OBRA SOCIAL DE TRABAJADORES SOCIOS DE LA ASOCIACION MUTUAL DEL PERSONAL JERARQUICO DE BANCOS OFICIALES NACIONALES-JERARQUICOS SALUD-",
+    "sigla": "",
+    "tipo": "NO ESPECIFICADO",
+    "provincia": "SANTA FE"
+  },
+  {
+    "nombre": "OBRA SOCIAL DE TRABAJADORES VENDEDORES DE DIARIOS REVISTAS Y AFINES",
+    "sigla": "OSTVENDRA",
+    "tipo": "SINDICAL",
+    "provincia": "BUENOS AIRES"
+  },
+  {
+    "nombre": "OBRA SOCIAL ASOCIACION  MUTUAL DE LOS OBREROS CATOLICOS PADRE FEDERICO GROTE",
+    "sigla": "OSAMOC",
+    "tipo": "SINDICAL",
+    "provincia": "CAPITAL FEDERAL"
+  },
+  {
+    "nombre": "OBRA SOCIAL DE CONDUCTORES TITULARES DE TAXIS DE LA CIUDAD AUTONOMA DE BUENOS AIRES",
+    "sigla": "OSTAXBA",
+    "tipo": "SINDICAL",
+    "provincia": "CAPITAL FEDERAL"
+  },
+  {
+    "nombre": "OBRA SOCIAL PROGRAMAS MEDICOS SOCIEDAD ARGENTINA DE CONSULTORIA MUTUAL",
+    "sigla": "-",
+    "tipo": "SINDICAL",
+    "provincia": "BUENOS AIRES"
+  },
+  {
+    "nombre": "OBRA SOCIAL  YACIMIENTOS CARBONIFEROS",
+    "sigla": "OSYC",
+    "tipo": "SINDICAL",
+    "provincia": "CAPITAL FEDERAL"
+  },
+  {
+    "nombre": "OBRA SOCIAL  DE LA PREVENCION Y LA SALUD",
+    "sigla": "OSPYSA",
+    "tipo": "SINDICAL",
+    "provincia": "CAPITAL FEDERAL"
+  },
+  {
+    "nombre": "OBRA SOCIAL DE TECNICOS DE VUELO DE LINEAS AEREAS",
+    "sigla": "OSTVLA",
+    "tipo": "SINDICAL",
+    "provincia": "CAPITAL FEDERAL"
+  },
+  {
+    "nombre": "OBRA SOCIAL PARA EMPLEADOS Y PRODUCTORES DE ENTIDADES DE LA ACTIVIDAD AGROPECUARIA Y AGROALIMENTARIA DE LA ECONOMIA SOCIAL",
+    "sigla": "OSPEDEAA",
+    "tipo": "SINDICAL",
+    "provincia": "CAPITAL FEDERAL"
+  },
+  {
+    "nombre": "OBRA SOCIAL PARA EL PERSONAL DE LA INDUSTRIA ACEITERA, DESMOTADORA Y AFINES",
+    "sigla": "OSIAD",
+    "tipo": "SINDICAL",
+    "provincia": "CAPITAL FEDERAL"
+  },
+  {
+    "nombre": "OBRA SOCIAL DE ACTORES",
+    "sigla": "OSA",
+    "tipo": "SINDICAL",
+    "provincia": "CAPITAL FEDERAL"
+  },
+  {
+    "nombre": "OBRA SOCIAL DEL PERSONAL SUPERIOR Y PROFESIONAL DE EMPRESAS AEROCOMERCIALES",
+    "sigla": "OSPEA",
+    "tipo": "SINDICAL",
+    "provincia": "CAPITAL FEDERAL"
+  },
+  {
+    "nombre": "OBRA SOCIAL DEL PERSONAL AERONAUTICO",
+    "sigla": "OSPA",
+    "tipo": "SINDICAL",
+    "provincia": "CAPITAL FEDERAL"
+  },
+  {
+    "nombre": "OBRA SOCIAL DEL PERSONAL DE AERONAVEGACION DE ENTES PRIVADOS",
+    "sigla": "OSPADEP",
+    "tipo": "SINDICAL",
+    "provincia": "CAPITAL FEDERAL"
+  },
+  {
+    "nombre": "OBRA SOCIAL DEL PERSONAL TECNICO AERONAUTICO",
+    "sigla": "OSPTA",
+    "tipo": "SINDICAL",
+    "provincia": "BUENOS AIRES"
+  },
+  {
+    "nombre": "OBRA SOCIAL DE AERONAVEGANTES",
+    "sigla": "OSA",
+    "tipo": "SINDICAL",
+    "provincia": "CAPITAL FEDERAL"
+  },
+  {
+    "nombre": "OBRA SOCIAL  EMPLEADOS DE AGENCIAS DE INFORMES",
+    "sigla": "OSEADI",
+    "tipo": "SINDICAL",
+    "provincia": "CAPITAL FEDERAL"
+  },
+  {
+    "nombre": "OBRA SOCIAL DEL PERSONAL DE AGUAS GASEOSAS Y AFINES",
+    "sigla": "OSPAGA",
+    "tipo": "SINDICAL",
+    "provincia": "CAPITAL FEDERAL"
+  },
+  {
+    "nombre": "OBRA SOCIAL DEL PERSONAL DE LA INDUSTRIA DE LA ALIMENTACION",
+    "sigla": "OSPIA",
+    "tipo": "SINDICAL",
+    "provincia": "CAPITAL FEDERAL"
+  },
+  {
+    "nombre": "OBRA SOCIAL DEL PERSONAL DEL AUTOMOVIL  CLUB ARGENTINO",
+    "sigla": "OSPACA",
+    "tipo": "SINDICAL",
+    "provincia": "CAPITAL FEDERAL"
+  },
+  {
+    "nombre": "OBRA SOCIAL DEL PERSONAL DEL AZUCAR DEL INGENIO LA ESPERANZA",
+    "sigla": "OSPA",
+    "tipo": "NO ESPECIFICADO",
+    "provincia": "JUJUY"
+  },
+  {
+    "nombre": "OBRA SOCIAL DEL PERSONAL DEL AZUCAR DEL INGENIO LEDESMA",
+    "sigla": "OSPAIL",
+    "tipo": "NO ESPECIFICADO",
+    "provincia": "JUJUY"
+  },
+  {
+    "nombre": "OBRA SOCIAL DEL PERSONAL DEL AZUCAR DEL INGENIO SAN MARTIN",
+    "sigla": "OSPA",
+    "tipo": "NO ESPECIFICADO",
+    "provincia": "SALTA"
+  },
+  {
+    "nombre": "OBRA SOCIAL DEL PERSONAL DE LA INDUSTRIA AZUCARERA",
+    "sigla": "OSPIA",
+    "tipo": "NO ESPECIFICADO",
+    "provincia": "TUCUMAN"
+  },
+  {
+    "nombre": "OBRA SOCIAL DEL PERSONAL DE BARRACAS DE LANAS, CUEROS Y ANEXOS",
+    "sigla": "OSBLYCA",
+    "tipo": "SINDICAL",
+    "provincia": "BUENOS AIRES"
+  },
+  {
+    "nombre": "OBRA SOCIAL DEL PERSONAL DE LA INDUSTRIA BOTONERA",
+    "sigla": "OSPIB",
+    "tipo": "SINDICAL",
+    "provincia": "BUENOS AIRES"
+  },
+  {
+    "nombre": "OBRA SOCIAL DEL PERSONAL DE LA INDUSTRIA DEL CALZADO",
+    "sigla": "OSPICAL",
+    "tipo": "SINDICAL",
+    "provincia": "CAPITAL FEDERAL"
+  },
+  {
+    "nombre": "OBRA SOCIAL DE CONDUCTORES CAMIONEROS Y PERSONAL DEL TRANSPORTE AUTOMOTOR DE CARGAS",
+    "sigla": "OSCCPTAC",
+    "tipo": "SINDICAL",
+    "provincia": "CAPITAL FEDERAL"
+  },
+  {
+    "nombre": "OBRA SOCIAL DEL PERSONAL DE CARGA Y DESCARGA",
+    "sigla": "OSPCYD",
+    "tipo": "SINDICAL",
+    "provincia": "CAPITAL FEDERAL"
+  },
+  {
+    "nombre": "OBRA SOCIAL DEL PERSONAL AUXILIAR DE CASAS PARTICULARES",
+    "sigla": "OSPACP",
+    "tipo": "SINDICAL",
+    "provincia": "CAPITAL FEDERAL"
+  },
+  {
+    "nombre": "OBRA SOCIAL DEL PERSONAL DE LA INDUSTRIA DEL CAUCHO",
+    "sigla": "OSPIC",
+    "tipo": "SINDICAL",
+    "provincia": "CAPITAL FEDERAL"
+  },
+  {
+    "nombre": "OBRA SOCIAL DEL PERSONAL DEL CAUCHO",
+    "sigla": "OSPECA",
+    "tipo": "SINDICAL",
+    "provincia": "CAPITAL FEDERAL"
+  },
+  {
+    "nombre": "OBRA SOCIAL DEL PERSONAL DE LA INDUSTRIA DEL CAUCHO DE SANTA FE",
+    "sigla": "OSPIC SANTA FE",
+    "tipo": "NO ESPECIFICADO",
+    "provincia": "SANTA FE"
+  },
+  {
+    "nombre": "OBRA SOCIAL DEL PERSONAL DE CEMENTERIOS DE LA REPUBLICA ARGENTINA",
+    "sigla": "OSPCRA",
+    "tipo": "SINDICAL",
+    "provincia": "CAPITAL FEDERAL"
+  },
+  {
+    "nombre": "OBRA SOCIAL DE CERAMISTAS",
+    "sigla": "OSCE",
+    "tipo": "SINDICAL",
+    "provincia": "CAPITAL FEDERAL"
+  },
+  {
+    "nombre": "OBRA SOCIAL DEL PERSONAL DE LA CERAMICA, SANITARIOS, PORCELANA DE MESA Y AFINES",
+    "sigla": "OSPCSPMYA",
+    "tipo": "SINDICAL",
+    "provincia": "BUENOS AIRES"
+  },
+  {
+    "nombre": "OBRA SOCIAL DEL PERSONAL DE LA ACTIVIDAD CERVECERA Y AFINES",
+    "sigla": "OSPACA",
+    "tipo": "SINDICAL",
+    "provincia": "CAPITAL FEDERAL"
+  },
+  {
+    "nombre": "OBRA SOCIAL DEL PERSONAL CINEMATOGRAFICO DE MAR DEL PLATA",
+    "sigla": "OSPERCIN",
+    "tipo": "SINDICAL",
+    "provincia": "BUENOS AIRES"
+  },
+  {
+    "nombre": "OBRA SOCIAL DEL PERSONAL DE LA INDUSTRIA CINEMATOGRAFICA",
+    "sigla": "OSPIC",
+    "tipo": "SINDICAL",
+    "provincia": "CAPITAL FEDERAL"
+  },
+  {
+    "nombre": "OBRA SOCIAL DE OPERADORES CINEMATOGRAFICOS",
+    "sigla": "OSOC",
+    "tipo": "SINDICAL",
+    "provincia": "CAPITAL FEDERAL"
+  },
+  {
+    "nombre": "OBRA SOCIAL DE COLOCADORES DE AZULEJOS, MOSAICOS, GRANITEROS, LUSTRADORES Y PORCELANEROS",
+    "sigla": "OSCAMGLYP",
+    "tipo": "SINDICAL",
+    "provincia": "CAPITAL FEDERAL"
+  },
+  {
+    "nombre": "OBRA SOCIAL DE CONDUCTORES NAVALES",
+    "sigla": "OSCONARA",
+    "tipo": "SINDICAL",
+    "provincia": "CAPITAL FEDERAL"
+  },
+  {
+    "nombre": "OBRA SOCIAL DEL PERSONAL ADMINISTRATIVO Y TECNICO DE LA CONSTRUCCION Y AFINES",
+    "sigla": "OSPATCA",
+    "tipo": "SINDICAL",
+    "provincia": "CAPITAL FEDERAL"
+  },
+  {
+    "nombre": "OBRA SOCIAL DEL PERSONAL DE LA CONSTRUCCION",
+    "sigla": "OSPECON",
+    "tipo": "SINDICAL",
+    "provincia": "CAPITAL FEDERAL"
+  },
+  {
+    "nombre": "OBRA SOCIAL DE LOS CORTADORES DE LA INDUMENTARIA",
+    "sigla": "OSUCI",
+    "tipo": "SINDICAL",
+    "provincia": "CAPITAL FEDERAL"
+  },
+  {
+    "nombre": "OBRA SOCIAL DEL PERSONAL DE LA INDUSTRIA DEL CUERO Y AFINES",
+    "sigla": "OSPICA",
+    "tipo": "SINDICAL",
+    "provincia": "BUENOS AIRES"
+  },
+  {
+    "nombre": "OBRA SOCIAL DEL PERSONAL DE LA INDUSTRIA DEL CHACINADO Y AFINES",
+    "sigla": "OSPICHA",
+    "tipo": "SINDICAL",
+    "provincia": "CAPITAL FEDERAL"
+  },
+  {
+    "nombre": "OBRA SOCIAL DE CHOFERES DE CAMIONES",
+    "sigla": "OSCHOCA",
+    "tipo": "SINDICAL",
+    "provincia": "CAPITAL FEDERAL"
+  },
+  {
+    "nombre": "OBRA SOCIAL DEL PERSONAL DE ENTIDADES DEPORTIVAS Y CIVILES",
+    "sigla": "OSPEDYC",
+    "tipo": "SINDICAL",
+    "provincia": "CAPITAL FEDERAL"
+  },
+  {
+    "nombre": "OBRA SOCIAL DE EMPLEADOS DE DESPACHANTES DE ADUANA",
+    "sigla": "OSEDA",
+    "tipo": "SINDICAL",
+    "provincia": "CAPITAL FEDERAL"
+  },
+  {
+    "nombre": "OBRA SOCIAL DEL PERSONAL DE DISTRIBUIDORAS CINEMATOGRAFICAS DE LA RA",
+    "sigla": "OSPEDICI",
+    "tipo": "SINDICAL",
+    "provincia": "CAPITAL FEDERAL"
+  },
+  {
+    "nombre": "OBRA SOCIAL DE DOCENTES PARTICULARES",
+    "sigla": "OSDOP",
+    "tipo": "SINDICAL",
+    "provincia": "CAPITAL FEDERAL"
+  },
+  {
+    "nombre": "OBRA SOCIAL DEL PERSONAL DE EDIFICIOS DE RENTA Y HORIZONTAL DE LA REPUBLICA ARGENTINA",
+    "sigla": "OSPERYHRA",
+    "tipo": "SINDICAL",
+    "provincia": "CAPITAL FEDERAL"
+  },
+  {
+    "nombre": "OBRA SOCIAL DEL PERSONAL DE EDIFICIOS DE RENTA Y HORIZONTAL DE LA CIUDAD AUTONOMA DE BUENOS AIRES  Y GRAN BUENOS AIRES",
+    "sigla": "OSPERYH",
+    "tipo": "SINDICAL",
+    "provincia": "CAPITAL FEDERAL"
+  },
+  {
+    "nombre": "OBRA SOCIAL ELECTRICISTAS NAVALES",
+    "sigla": "OSEN",
+    "tipo": "SINDICAL",
+    "provincia": "CAPITAL FEDERAL"
+  },
+  {
+    "nombre": "OBRA SOCIAL DE OBREROS EMPACADORES DE FRUTA  DE RIO NEGRO Y NEUQUEN",
+    "sigla": "",
+    "tipo": "NO ESPECIFICADO",
+    "provincia": "RIO NEGRO"
+  },
+  {
+    "nombre": "OBRA SOCIAL DEL PERSONAL DE LA ENSEÑANZA PRIVADA",
+    "sigla": "OSPEP",
+    "tipo": "SINDICAL",
+    "provincia": "CAPITAL FEDERAL"
+  },
+  {
+    "nombre": "OBRA SOCIAL DEL PERSONAL DE ESCRIBANIAS DE LA PROVINCIA DE BUENOS AIRES",
+    "sigla": "OSPEPBA",
+    "tipo": "SINDICAL",
+    "provincia": "BUENOS AIRES"
+  },
+  {
+    "nombre": "OBRA SOCIAL DEL PERSONAL DE ESCRIBANOS",
+    "sigla": "OSPE",
+    "tipo": "SINDICAL",
+    "provincia": "CAPITAL FEDERAL"
+  },
+  {
+    "nombre": "OBRA SOCIAL DEL PERSONAL DEL ESPECTACULO PUBLICO",
+    "sigla": "OSPEP",
+    "tipo": "SINDICAL",
+    "provincia": "CAPITAL FEDERAL"
+  },
+  {
+    "nombre": "OBRA SOCIAL DEL PERSONAL DE ESTACIONES DE SERVICIO Y GNC, GARAGES, PLAYAS DE ESTACIONAMIENTO Y LAVADEROS AUTOMATICOS",
+    "sigla": "OSPESGYPE",
+    "tipo": "SINDICAL",
+    "provincia": "CAPITAL FEDERAL"
+  },
+  {
+    "nombre": "OBRA SOCIAL DEL PERSONAL DE FARMACIA",
+    "sigla": "OSPF",
+    "tipo": "SINDICAL",
+    "provincia": "CAPITAL FEDERAL"
+  },
+  {
+    "nombre": "OBRA SOCIAL DEL PERSONAL DE LA INDUSTRIA DEL FIBROCEMENTO",
+    "sigla": "OSPIF",
+    "tipo": "SINDICAL",
+    "provincia": "BUENOS AIRES"
+  },
+  {
+    "nombre": "OBRA SOCIAL DEL PERSONAL DE LA INDUSTRIA FIDEERA",
+    "sigla": "OSPIF",
+    "tipo": "SINDICAL",
+    "provincia": "CAPITAL FEDERAL"
+  },
+  {
+    "nombre": "OBRA SOCIAL  PARA EL PERSONAL DE LA INDUSTRIA FORESTAL DE SANTIAGO DEL ESTERO",
+    "sigla": "OSPIFSE",
+    "tipo": "NO ESPECIFICADO",
+    "provincia": "SANTIAGO DEL ESTERO"
+  },
+  {
+    "nombre": "OBRA SOCIAL DEL PERSONAL DE LA INDUSTRIA DEL FOSFORO, ENCENDIDO Y AFINES",
+    "sigla": "OSPIF",
+    "tipo": "SINDICAL",
+    "provincia": "CAPITAL FEDERAL"
+  },
+  {
+    "nombre": "OBRA SOCIAL DE FOTOGRAFOS",
+    "sigla": "OSFOT",
+    "tipo": "SINDICAL",
+    "provincia": "CAPITAL FEDERAL"
+  },
+  {
+    "nombre": "OBRA SOCIAL DEL PERSONAL DE LA ACTIVIDAD FRUTICOLA",
+    "sigla": "OSPAF",
+    "tipo": "NO ESPECIFICADO",
+    "provincia": "ENTRE RIOS"
+  },
+  {
+    "nombre": "OBRA SOCIAL DEL PERSONAL DE MANIPULEO, EMPAQUE Y EXPEDICION DE FRUTA FRESCA Y HORTALIZAS DE CUYO",
+    "sigla": "OSFYHC",
+    "tipo": "NO ESPECIFICADO",
+    "provincia": "MENDOZA"
+  },
+  {
+    "nombre": "OBRA SOCIAL DE FUTBOLISTAS",
+    "sigla": "FAA",
+    "tipo": "SINDICAL",
+    "provincia": "CAPITAL FEDERAL"
+  },
+  {
+    "nombre": "OBRA SOCIAL DE TECNICOS DE FUTBOL",
+    "sigla": "OSTECF",
+    "tipo": "SINDICAL",
+    "provincia": "CAPITAL FEDERAL"
+  },
+  {
+    "nombre": "OBRA SOCIAL  DE LA UNION  DE TRABAJADORES  DEL TURISMO, HOTELEROS Y GASTRONOMICOS DE LA REPUBLICA  ARGENTINA",
+    "sigla": "OSUTHGRA",
+    "tipo": "SINDICAL",
+    "provincia": "CAPITAL FEDERAL"
+  },
+  {
+    "nombre": "OBRA SOCIAL DEL PERSONAL GRAFICO",
+    "sigla": "OSPG",
+    "tipo": "SINDICAL",
+    "provincia": "CAPITAL FEDERAL"
+  },
+  {
+    "nombre": "OBRA SOCIAL DE GUINCHEROS Y MAQUINISTAS DE GRUAS MOVILES",
+    "sigla": "",
+    "tipo": "SINDICAL",
+    "provincia": "CAPITAL FEDERAL"
+  },
+  {
+    "nombre": "OBRA SOCIAL DEL PERSONAL DE CONSIGNATARIOS DEL MERCADO NACIONAL DE HACIENDA DE LINIERS",
+    "sigla": "OSPEMER",
+    "tipo": "SINDICAL",
+    "provincia": "CAPITAL FEDERAL"
+  },
+  {
+    "nombre": "OBRA SOCIAL DEL PERSONAL DE LA INDUSTRIA DEL HIELO Y MERCADOS PARTICULARES",
+    "sigla": "OSPIHMP",
+    "tipo": "SINDICAL",
+    "provincia": "CAPITAL FEDERAL"
+  },
+  {
+    "nombre": "OBRA SOCIAL DEL PERSONAL DE LOS HIPODROMOS DE BUENOS AIRES Y SAN ISIDRO",
+    "sigla": "OSPHGBAYSI",
+    "tipo": "SINDICAL",
+    "provincia": "CAPITAL FEDERAL"
+  },
+  {
+    "nombre": "OBRA SOCIAL DEL PERSONAL MENSUALIZADO DEL JOCKEY CLUB DE BUENOS AIRES Y LOS HIPODROMOS DE PALERMO Y SAN ISIDRO",
+    "sigla": "",
+    "tipo": "SINDICAL",
+    "provincia": "CAPITAL FEDERAL"
+  },
+  {
+    "nombre": "OBRA SOCIAL DEL PERSONAL DE IMPRENTAS, DIARIOS Y AFINES",
+    "sigla": "OSPIDA",
+    "tipo": "SINDICAL",
+    "provincia": "CAPITAL FEDERAL"
+  },
+  {
+    "nombre": "OBRA SOCIAL DEL PERSONAL DE JABONEROS",
+    "sigla": "OSPEJ",
+    "tipo": "SINDICAL",
+    "provincia": "CAPITAL FEDERAL"
+  },
+  {
+    "nombre": "OBRA SOCIAL DE JARDINEROS, PARQUISTAS, VIVERISTAS Y FLORICULTORES DE LA REPUBLICA ARGENTINA",
+    "sigla": "OSJPVYF",
+    "tipo": "SINDICAL",
+    "provincia": "CAPITAL FEDERAL"
+  },
+  {
+    "nombre": "OBRA SOCIAL DEL PERSONAL DEL JOCKEY CLUB DE ROSARIO",
+    "sigla": "",
+    "tipo": "NO ESPECIFICADO",
+    "provincia": "SANTA FE"
+  },
+  {
+    "nombre": "OBRA SOCIAL DEL PERSONAL LADRILLERO",
+    "sigla": "OSPL",
+    "tipo": "SINDICAL",
+    "provincia": "CAPITAL FEDERAL"
+  },
+  {
+    "nombre": "OBRA SOCIAL DEL PERSONAL DE LA INDUSTRIA LADRILLERA A MAQUINA",
+    "sigla": "OSPILM",
+    "tipo": "SINDICAL",
+    "provincia": "BUENOS AIRES"
+  },
+  {
+    "nombre": "OBRA SOCIAL DEL PERSONAL DE LA INDUSTRIA LECHERA",
+    "sigla": "OSPIL",
+    "tipo": "SINDICAL",
+    "provincia": "CAPITAL FEDERAL"
+  },
+  {
+    "nombre": "OBRA SOCIAL DE LOCUTORES",
+    "sigla": "OSDEL",
+    "tipo": "SINDICAL",
+    "provincia": "CAPITAL FEDERAL"
+  },
+  {
+    "nombre": "OBRA SOCIAL DE LA FEDERACION ARGENTINA DE TRABAJADORES DE LUZ Y FUERZA",
+    "sigla": "OSFATLYF",
+    "tipo": "SINDICAL",
+    "provincia": "CAPITAL FEDERAL"
+  },
+  {
+    "nombre": "OBRA SOCIAL DE LOS TRABAJADORES DE LAS EMPRESAS DE ELECTRICIDAD",
+    "sigla": "OSTEE",
+    "tipo": "SINDICAL",
+    "provincia": "CAPITAL FEDERAL"
+  },
+  {
+    "nombre": "OBRA SOCIAL DEL PERSONAL DE LUZ Y FUERZA DE CORDOBA",
+    "sigla": "OSLYF",
+    "tipo": "NO ESPECIFICADO",
+    "provincia": "CORDOBA"
+  },
+  {
+    "nombre": "OBRA SOCIAL DEL PERSONAL DE LA INDUSTRIA MADERERA",
+    "sigla": "OSPIM",
+    "tipo": "SINDICAL",
+    "provincia": "CAPITAL FEDERAL"
+  },
+  {
+    "nombre": "OBRA SOCIAL DEL PERSONAL DE MAESTRANZA",
+    "sigla": "OSPM",
+    "tipo": "SINDICAL",
+    "provincia": "CAPITAL FEDERAL"
+  },
+  {
+    "nombre": "OBRA SOCIAL DE MAQUINISTAS DE TEATRO Y TELEVISION",
+    "sigla": "OSMTT",
+    "tipo": "SINDICAL",
+    "provincia": "CAPITAL FEDERAL"
+  },
+  {
+    "nombre": "OBRA SOCIAL DE CAPITANES DE ULTRAMAR Y OFICIALES DE LA MARINA MERCANTE",
+    "sigla": "OSCOMM",
+    "tipo": "SINDICAL",
+    "provincia": "CAPITAL FEDERAL"
+  },
+  {
+    "nombre": "OBRA SOCIAL ASOCIACION PROFESIONAL DE CAPITANES Y BAQUEANOS FLUVIALES Y PERSONAL CON  CONOCIMIENTO DE ZONA DE LA MARINA MERCANTE",
+    "sigla": "OSCAPBAQFLU",
+    "tipo": "SINDICAL",
+    "provincia": "CAPITAL FEDERAL"
+  },
+  {
+    "nombre": "OBRA SOCIAL DE EMPLEADOS DE LA MARINA MERCANTE",
+    "sigla": "OSEMM",
+    "tipo": "SINDICAL",
+    "provincia": "CAPITAL FEDERAL"
+  },
+  {
+    "nombre": "OBRA SOCIAL DE ENCARGADOS APUNTADORES MARITIMOS",
+    "sigla": "OSEAM",
+    "tipo": "SINDICAL",
+    "provincia": "CAPITAL FEDERAL"
+  },
+  {
+    "nombre": "OBRA SOCIAL DEL PERSONAL MARITIMO",
+    "sigla": "OSPM",
+    "tipo": "SINDICAL",
+    "provincia": "CAPITAL FEDERAL"
+  },
+  {
+    "nombre": "OBRA SOCIAL DEL SINDICATO DE MECANICOS Y AFINES DEL TRANSPORTE AUTOMOTOR",
+    "sigla": "OSMATA",
+    "tipo": "SINDICAL",
+    "provincia": "CAPITAL FEDERAL"
+  },
+  {
+    "nombre": "OBRA SOCIAL DEL PERSONAL SUPERIOR MERCEDES BENZ ARGENTINA",
+    "sigla": "OSPS MERCEDES",
+    "tipo": "SINDICAL",
+    "provincia": "CAPITAL FEDERAL"
+  },
+  {
+    "nombre": "OBRA SOCIAL DE LA UNION OBRERA METALURGICA DE LA REPUBLICA ARGENTINA",
+    "sigla": "OSUOMRA",
+    "tipo": "SINDICAL",
+    "provincia": "CAPITAL FEDERAL"
+  },
+  {
+    "nombre": "OBRA SOCIAL DE LOS  SUPERVISORES DE LA INDUSTRIA METALMECANICA DE LA REPUBLICA ARGENTINA",
+    "sigla": "OSSIMRA",
+    "tipo": "SINDICAL",
+    "provincia": "CAPITAL FEDERAL"
+  },
+  {
+    "nombre": "OBRA SOCIAL DEL PERSONAL DE  MICROS Y OMNIBUS DE MENDOZA",
+    "sigla": "OSPEMOM",
+    "tipo": "NO ESPECIFICADO",
+    "provincia": "MENDOZA"
+  },
+  {
+    "nombre": "OBRA SOCIAL DE LA ACTIVIDAD MINERA",
+    "sigla": "OSAM",
+    "tipo": "SINDICAL",
+    "provincia": "CAPITAL FEDERAL"
+  },
+  {
+    "nombre": "OBRA SOCIAL MODELOS ARGENTINOS",
+    "sigla": "OSMA",
+    "tipo": "SINDICAL",
+    "provincia": "CAPITAL FEDERAL"
+  },
+  {
+    "nombre": "OBRA SOCIAL DEL PERSONAL DE LA INDUSTRIA MOLINERA",
+    "sigla": "OSPIM",
+    "tipo": "SINDICAL",
+    "provincia": "CAPITAL FEDERAL"
+  },
+  {
+    "nombre": "OBRA SOCIAL DEL PERSONAL MOSAISTA",
+    "sigla": "OSPM",
+    "tipo": "SINDICAL",
+    "provincia": "CAPITAL FEDERAL"
+  },
+  {
+    "nombre": "OBRA SOCIAL DE MUSICOS",
+    "sigla": "OSDEM",
+    "tipo": "SINDICAL",
+    "provincia": "CAPITAL FEDERAL"
+  },
+  {
+    "nombre": "OBRA SOCIAL DE JEFES Y OFICIALES NAVALES DE RADIOCOMUNICACIONES",
+    "sigla": "OSJONR",
+    "tipo": "SINDICAL",
+    "provincia": "CAPITAL FEDERAL"
+  },
+  {
+    "nombre": "OBRA SOCIAL DE JEFES Y OFICIALES MAQUINISTAS NAVALES",
+    "sigla": "OSJOMN",
+    "tipo": "SINDICAL",
+    "provincia": "CAPITAL FEDERAL"
+  },
+  {
+    "nombre": "OBRA SOCIAL DEL PERSONAL NAVAL",
+    "sigla": "OSPENA",
+    "tipo": "SINDICAL",
+    "provincia": "CAPITAL FEDERAL"
+  },
+  {
+    "nombre": "OBRA SOCIAL DEL PERSONAL DE LA INDUSTRIA DEL NEUMATICO",
+    "sigla": "OSPIN",
+    "tipo": "SINDICAL",
+    "provincia": "CAPITAL FEDERAL"
+  },
+  {
+    "nombre": "OBRA SOCIAL DEL PERSONAL DE LA INDUSTRIA NAVAL",
+    "sigla": "OSPIN",
+    "tipo": "SINDICAL",
+    "provincia": "BUENOS AIRES"
+  },
+  {
+    "nombre": "OBRA SOCIAL DE COMISARIOS NAVALES",
+    "sigla": "",
+    "tipo": "SINDICAL",
+    "provincia": "CAPITAL FEDERAL"
+  },
+  {
+    "nombre": "OBRA SOCIAL DEL PERSONAL DE PANADERIAS",
+    "sigla": "OSPEP",
+    "tipo": "SINDICAL",
+    "provincia": "CAPITAL FEDERAL"
+  },
+  {
+    "nombre": "OBRA SOCIAL DE PANADEROS, PASTELEROS Y FACTUREROS DE ENTRE RIOS",
+    "sigla": "OSSPYFER",
+    "tipo": "NO ESPECIFICADO",
+    "provincia": "ENTRE RIOS"
+  },
+  {
+    "nombre": "OBRA SOCIAL DEL PERSONAL DEL PAPEL, CARTON Y QUIMICOS",
+    "sigla": "OSPPCYQ",
+    "tipo": "SINDICAL",
+    "provincia": "CAPITAL FEDERAL"
+  },
+  {
+    "nombre": "OBRA SOCIAL DE LA INDUSTRIA DE PASTAS ALIMENTICIAS",
+    "sigla": "OSIPA",
+    "tipo": "SINDICAL",
+    "provincia": "CAPITAL FEDERAL"
+  },
+  {
+    "nombre": "OBRA SOCIAL TRABAJADORES  PASTELEROS, CONFITEROS, PIZZEROS , HELADEROS Y ALFAJOREROS DE LA REPUBLICA ARGENTINA",
+    "sigla": "OSTPCHPYARA",
+    "tipo": "SINDICAL",
+    "provincia": "CAPITAL FEDERAL"
+  },
+  {
+    "nombre": "OBRA SOCIAL DE PATRONES DE CABOTAJE DE RIOS Y PUERTOS",
+    "sigla": "OSPATRONES",
+    "tipo": "SINDICAL",
+    "provincia": "CAPITAL FEDERAL"
+  },
+  {
+    "nombre": "OBRA SOCIAL DEL PERSONAL DE PELUQUERIAS, ESTETICAS Y AFINES",
+    "sigla": "OSPPEA",
+    "tipo": "SINDICAL",
+    "provincia": "CAPITAL FEDERAL"
+  },
+  {
+    "nombre": "OBRA SOCIAL DE OFICIALES PELUQUEROS Y PEINADORES  DE LA 2DA CIRCUNSCRIPCION JUDICIAL DE LA PROVINCIA DE SANTA FE",
+    "sigla": "",
+    "tipo": "NO ESPECIFICADO",
+    "provincia": "SANTA FE"
+  },
+  {
+    "nombre": "OBRA SOCIAL DEL PERSONAL DE LA ACTIVIDAD PERFUMISTA",
+    "sigla": "OSPAP",
+    "tipo": "SINDICAL",
+    "provincia": "CAPITAL FEDERAL"
+  },
+  {
+    "nombre": "OBRA SOCIAL DE TRABAJADORES DE PRENSA DE BUENOS AIRES",
+    "sigla": "OSTPBA,PRENSA",
+    "tipo": "SINDICAL",
+    "provincia": "CAPITAL FEDERAL"
+  },
+  {
+    "nombre": "OBRA SOCIAL DEL PERSONAL DE LA INDUSTRIA DEL PESCADO DE MAR DEL PLATA",
+    "sigla": "OSPIP,PLASTICO",
+    "tipo": "SINDICAL",
+    "provincia": "BUENOS AIRES"
+  },
+  {
+    "nombre": "OBRA SOCIAL DE PETROLEROS",
+    "sigla": "OSPE",
+    "tipo": "SINDICAL",
+    "provincia": "CAPITAL FEDERAL"
+  },
+  {
+    "nombre": "OBRA SOCIAL DEL PETROLEO Y GAS PRIVADOS",
+    "sigla": "OSPEGAP",
+    "tipo": "SINDICAL",
+    "provincia": "CAPITAL FEDERAL"
+  },
+  {
+    "nombre": "OBRA SOCIAL DE PETROLEROS DE CORDOBA",
+    "sigla": "OSPECOR",
+    "tipo": "NO ESPECIFICADO",
+    "provincia": "CORDOBA"
+  },
+  {
+    "nombre": "OBRA SOCIAL DEL PERSONAL DE LA INDUSTRIA PETROQUIMICA",
+    "sigla": "OSPIP",
+    "tipo": "NO ESPECIFICADO",
+    "provincia": "SANTA FE"
+  },
+  {
+    "nombre": "OBRA SOCIAL PARA PILOTOS DE LINEAS AEREAS COMERCIALES Y REGULARES",
+    "sigla": "OSPLA",
+    "tipo": "SINDICAL",
+    "provincia": "CAPITAL FEDERAL"
+  },
+  {
+    "nombre": "OBRA SOCIAL DEL PERSONAL DE FABRICAS DE PINTURA",
+    "sigla": "UPFPARA",
+    "tipo": "SINDICAL",
+    "provincia": "CAPITAL FEDERAL"
+  },
+  {
+    "nombre": "OBRA SOCIAL DEL PERSONAL DE LA INDUSTRIA DEL PLASTICO",
+    "sigla": "OSPIP",
+    "tipo": "SINDICAL",
+    "provincia": "CAPITAL FEDERAL"
+  },
+  {
+    "nombre": "OBRA SOCIAL DE CAPATACES  ESTIBADORES PORTUARIOS",
+    "sigla": "OSCEP",
+    "tipo": "SINDICAL",
+    "provincia": "CAPITAL FEDERAL"
+  },
+  {
+    "nombre": "OBRA SOCIAL DE PORTUARIOS ARGENTINOS",
+    "sigla": "OSPA",
+    "tipo": "SINDICAL",
+    "provincia": "CAPITAL FEDERAL"
+  },
+  {
+    "nombre": "OBRA SOCIAL PORTUARIOS  PUERTO SAN MARTIN Y BELLA VISTA",
+    "sigla": "",
+    "tipo": "NO ESPECIFICADO",
+    "provincia": "SANTA FE"
+  },
+  {
+    "nombre": "OBRA SOCIAL DEL PERSONAL DE PRENSA DE LA REPUBLICA ARGENTINA",
+    "sigla": "OSPPRA",
+    "tipo": "SINDICAL",
+    "provincia": "CAPITAL FEDERAL"
+  },
+  {
+    "nombre": "OBRA SOCIAL DEL PERSONAL DE PRENSA DE BAHIA BLANCA",
+    "sigla": "",
+    "tipo": "SINDICAL",
+    "provincia": "BUENOS AIRES"
+  },
+  {
+    "nombre": "OBRA SOCIAL DEL PERSONAL DE PRENSA DE MAR DEL PLATA",
+    "sigla": "OSPREN",
+    "tipo": "SINDICAL",
+    "provincia": "BUENOS AIRES"
+  },
+  {
+    "nombre": "OBRA SOCIAL DEL PERSONAL DE PRENSA DE MENDOZA",
+    "sigla": "",
+    "tipo": "NO ESPECIFICADO",
+    "provincia": "MENDOZA"
+  },
+  {
+    "nombre": "OBRA SOCIAL DE EMPLEADOS DE PRENSA DE CORDOBA",
+    "sigla": "OSEPC",
+    "tipo": "NO ESPECIFICADO",
+    "provincia": "CORDOBA"
+  },
+  {
+    "nombre": "OBRA SOCIAL DE AGENTES DE PROPAGANDA MEDICA DE LA REPUBLICA ARGENTINA",
+    "sigla": "OSAPM",
+    "tipo": "SINDICAL",
+    "provincia": "CAPITAL FEDERAL"
+  },
+  {
+    "nombre": "OBRA SOCIAL DE AGENTES DE PROPAGANDA MEDICA DE CORDOBA",
+    "sigla": "OSAPMCBA",
+    "tipo": "NO ESPECIFICADO",
+    "provincia": "CORDOBA"
+  },
+  {
+    "nombre": "OBRA SOCIAL DE AGENTES DE PROPAGANDA MEDICA DE ENTRE RIOS",
+    "sigla": "OSAPMER",
+    "tipo": "NO ESPECIFICADO",
+    "provincia": "ENTRE RIOS"
+  },
+  {
+    "nombre": "OBRA SOCIAL DEL PERSONAL DE LA PUBLICIDAD",
+    "sigla": "OSPP",
+    "tipo": "SINDICAL",
+    "provincia": "CAPITAL FEDERAL"
+  },
+  {
+    "nombre": "OBRA SOCIAL DEL PERSONAL DE INDUSTRIAS QUIMICAS Y PETROQUIMICAS",
+    "sigla": "OSPIQYP",
+    "tipo": "SINDICAL",
+    "provincia": "CAPITAL FEDERAL"
+  },
+  {
+    "nombre": "OBRA SOCIAL DE RECIBIDORES DE GRANOS Y ANEXOS",
+    "sigla": "OSRGA",
+    "tipo": "SINDICAL",
+    "provincia": "CAPITAL FEDERAL"
+  },
+  {
+    "nombre": "OBRA SOCIAL DEL PERSONAL DE RECOLECCION Y BARRIDO DE ROSARIO",
+    "sigla": "",
+    "tipo": "NO ESPECIFICADO",
+    "provincia": "SANTA FE"
+  },
+  {
+    "nombre": "OBRA SOCIAL DEL PERSONAL DE REFINERIAS DE MAIZ",
+    "sigla": "",
+    "tipo": "SINDICAL",
+    "provincia": "BUENOS AIRES"
+  },
+  {
+    "nombre": "OBRA SOCIAL DE RELOJEROS Y JOYEROS",
+    "sigla": "OSRJA",
+    "tipo": "SINDICAL",
+    "provincia": "CAPITAL FEDERAL"
+  },
+  {
+    "nombre": "OBRA SOCIAL DEL PERSONAL RURAL Y ESTIBADORES DE LA REPUBLICA ARGENTINA",
+    "sigla": "OSPRERA",
+    "tipo": "SINDICAL",
+    "provincia": "CAPITAL FEDERAL"
+  },
+  {
+    "nombre": "OBRA SOCIAL DEL PERSONAL DE LA SANIDAD ARGENTINA",
+    "sigla": "OSPSA",
+    "tipo": "SINDICAL",
+    "provincia": "CAPITAL FEDERAL"
+  },
+  {
+    "nombre": "OBRA SOCIAL DEL PERSONAL DE INSTALACIONES SANITARIAS",
+    "sigla": "OSPIS",
+    "tipo": "SINDICAL",
+    "provincia": "CAPITAL FEDERAL"
+  },
+  {
+    "nombre": "OBRA SOCIAL DEL PERSONAL DE SEGURIDAD COMERCIAL, INDUSTRIAL E INVESTIGACIONES PRIVADAS",
+    "sigla": "OSPSIP",
+    "tipo": "SINDICAL",
+    "provincia": "CAPITAL FEDERAL"
+  },
+  {
+    "nombre": "OBRA SOCIAL DE SERENOS DE BUQUES",
+    "sigla": "",
+    "tipo": "SINDICAL",
+    "provincia": "CAPITAL FEDERAL"
+  },
+  {
+    "nombre": "OBRA SOCIAL DEL PERSONAL DE SUPERVISION DE LA EMPRESA SUBTERRANEOS DE BUENOS AIRES",
+    "sigla": "OSPSESBA",
+    "tipo": "SINDICAL",
+    "provincia": "CAPITAL FEDERAL"
+  },
+  {
+    "nombre": "OBRA SOCIAL DEL PERSONAL DE DIRECCION DE LA EMPRESA SUBTERRANEOS DE BUENOS AIRES",
+    "sigla": "OSPDESBA",
+    "tipo": "SINDICAL",
+    "provincia": "CAPITAL FEDERAL"
+  },
+  {
+    "nombre": "OBRA SOCIAL DEL PERSONAL DE LA INDUSTRIA  DEL TABACO",
+    "sigla": "OSPIT",
+    "tipo": "SINDICAL",
+    "provincia": "CAPITAL FEDERAL"
+  },
+  {
+    "nombre": "OBRA SOCIAL DE EMPLEADOS DEL TABACO DE LA REPUBLICA ARGENTINA",
+    "sigla": "OSETRA",
+    "tipo": "SINDICAL",
+    "provincia": "CAPITAL FEDERAL"
+  },
+  {
+    "nombre": "OBRA SOCIAL DEL PERSONAL DE LAS TELECOMUNICACIONES DE LA REPUBLICA ARGENTINA",
+    "sigla": "OSTEL",
+    "tipo": "SINDICAL",
+    "provincia": "CAPITAL FEDERAL"
+  },
+  {
+    "nombre": "OBRA SOCIAL DE TRABAJADORES DE LAS COMUNICACIONES",
+    "sigla": "OSTRAC",
+    "tipo": "SINDICAL",
+    "provincia": "CAPITAL FEDERAL"
+  },
+  {
+    "nombre": "OBRA SOCIAL DEL PERSONAL DE TELEVISION",
+    "sigla": "OSPTV",
+    "tipo": "SINDICAL",
+    "provincia": "CAPITAL FEDERAL"
+  },
+  {
+    "nombre": "OBRA SOCIAL DEL PERSONAL DE LA INDUSTRIA TEXTIL",
+    "sigla": "OSPIT",
+    "tipo": "SINDICAL",
+    "provincia": "CAPITAL FEDERAL"
+  },
+  {
+    "nombre": "OBRA SOCIAL DE EMPLEADOS TEXTILES Y AFINES",
+    "sigla": "OSETYA",
+    "tipo": "SINDICAL",
+    "provincia": "CAPITAL FEDERAL"
+  },
+  {
+    "nombre": "OBRA SOCIAL DEL PERSONAL DE LA INDUSTRIA DEL TRACTOR",
+    "sigla": "OSPIT",
+    "tipo": "NO ESPECIFICADO",
+    "provincia": "SANTA FE"
+  },
+  {
+    "nombre": "OBRA SOCIAL DE LA INDUSTRIA DEL TRANSPORTE  AUTOMOTOR DE CORDOBA",
+    "sigla": "OSITAC",
+    "tipo": "NO ESPECIFICADO",
+    "provincia": "CORDOBA"
+  },
+  {
+    "nombre": "OBRA SOCIAL CONDUCTORES DE TRANSPORTE COLECTIVO DE PASAJEROS",
+    "sigla": "UTA",
+    "tipo": "SINDICAL",
+    "provincia": "CAPITAL FEDERAL"
+  },
+  {
+    "nombre": "OBRA SOCIAL DEL PERSONAL DE LA ACTIVIDAD DEL TURF",
+    "sigla": "OSPAT",
+    "tipo": "SINDICAL",
+    "provincia": "CAPITAL FEDERAL"
+  },
+  {
+    "nombre": "OBRA SOCIAL CONDUCTORES DE TAXIS DE CORDOBA",
+    "sigla": "OSTC",
+    "tipo": "NO ESPECIFICADO",
+    "provincia": "CORDOBA"
+  },
+  {
+    "nombre": "OBRA SOCIAL DE VAREADORES",
+    "sigla": "",
+    "tipo": "SINDICAL",
+    "provincia": "BUENOS AIRES"
+  },
+  {
+    "nombre": "OBRA SOCIAL DE VIAJANTES VENDEDORES DE LA REPUBLICA ARGENTINA (ANDAR)",
+    "sigla": "OSVVRA",
+    "tipo": "SINDICAL",
+    "provincia": "CAPITAL FEDERAL"
+  },
+  {
+    "nombre": "OBRA SOCIAL DEL PERSONAL DE LA ACTIVIDAD VIAL",
+    "sigla": "OSPA-VIAL",
+    "tipo": "SINDICAL",
+    "provincia": "CAPITAL FEDERAL"
+  },
+  {
+    "nombre": "OBRA SOCIAL DE  EMPLEADOS DE LA INDUSTRIA DEL VIDRIO",
+    "sigla": "OSEIV",
+    "tipo": "SINDICAL",
+    "provincia": "CAPITAL FEDERAL"
+  },
+  {
+    "nombre": "OBRA SOCIAL DEL PERSONAL DE LA INDUSTRIA DEL VIDRIO",
+    "sigla": "OSPIV,VIDRIO",
+    "tipo": "SINDICAL",
+    "provincia": "CAPITAL FEDERAL"
+  },
+  {
+    "nombre": "OBRA SOCIAL DEL PERSONAL DE LA ACTIVIDAD VITIVINICOLA",
+    "sigla": "OSPAV",
+    "tipo": "SINDICAL",
+    "provincia": "CAPITAL FEDERAL"
+  },
+  {
+    "nombre": "OBRA SOCIAL DEL PERSONAL DE VIGILANCIA Y SEGURIDAD COMERCIAL, INDUSTRIAL E INVESTIGACIONES PRIVADAS DE CORDOBA",
+    "sigla": "OSPEVIC",
+    "tipo": "NO ESPECIFICADO",
+    "provincia": "CORDOBA"
+  },
+  {
+    "nombre": "OBRA SOCIAL DEL PERSONAL DE ESTACIONES DE SERVICIO, GARAGES, PLAYAS Y LAVADEROS AUTOMATICOS DE LA PROVINCIA DE SANTA FE",
+    "sigla": "OSPESGA",
+    "tipo": "NO ESPECIFICADO",
+    "provincia": "SANTA FE"
+  },
+  {
+    "nombre": "OBRA SOCIAL PARA EL PERSONAL DE ESTACIONES DE SERVICIO, GARAGES, PLAYAS DE ESTACIONAMIENTO, LAVADEROS AUTOMATICOS Y GOMERIAS DE LA REPUBLICA ARGENTINA",
+    "sigla": "OSPES",
+    "tipo": "SINDICAL",
+    "provincia": "CAPITAL FEDERAL"
+  },
+  {
+    "nombre": "OBRA SOCIAL TALLERISTAS A DOMICILIO",
+    "sigla": "OSTAD",
+    "tipo": "SINDICAL",
+    "provincia": "CAPITAL FEDERAL"
+  },
+  {
+    "nombre": "OBRA SOCIAL DEL PERSONAL DE SOCIEDADES DE AUTORES Y AFINES",
+    "sigla": "OSPESA",
+    "tipo": "SINDICAL",
+    "provincia": "CAPITAL FEDERAL"
+  },
+  {
+    "nombre": "OBRA SOCIAL DEL PERSONAL DE PRENSA DE ROSARIO",
+    "sigla": "OSPRO",
+    "tipo": "NO ESPECIFICADO",
+    "provincia": "SANTA FE"
+  },
+  {
+    "nombre": "OBRA SOCIAL DEL PERSONAL DE PRENSA DE TUCUMAN",
+    "sigla": "OSPRENTUC",
+    "tipo": "NO ESPECIFICADO",
+    "provincia": "TUCUMAN"
+  },
+  {
+    "nombre": "OBRA SOCIAL DE TRABAJADORES DE PERKINS ARGENTINA SAIC",
+    "sigla": "OSTP",
+    "tipo": "NO ESPECIFICADO",
+    "provincia": "CORDOBA"
+  },
+  {
+    "nombre": "OBRA SOCIAL DE PEONES DE TAXIS DE LA CAPITAL FEDERAL",
+    "sigla": "OSPETAX",
+    "tipo": "SINDICAL",
+    "provincia": "CAPITAL FEDERAL"
+  },
+  {
+    "nombre": "OBRA SOCIAL DE VENDEDORES AMBULANTES DE LA REPUBLICA ARGENTINA",
+    "sigla": "OSVARA,IGUALDAD,SALUD,IGUALDAD SALUD",
+    "tipo": "SINDICAL",
+    "provincia": "CAPITAL FEDERAL"
+  },
+  {
+    "nombre": "OBRA SOCIAL DE BOXEADORES AGREMIADOS DE LA REPUBLICA ARGENTINA",
+    "sigla": "OSBARA",
+    "tipo": "SINDICAL",
+    "provincia": "CAPITAL FEDERAL"
+  },
+  {
+    "nombre": "OBRA SOCIAL DE TRABAJADORES DE LA INDUSTRIA DEL GAS",
+    "sigla": "OSTIG",
+    "tipo": "SINDICAL",
+    "provincia": "CAPITAL FEDERAL"
+  },
+  {
+    "nombre": "OBRA SOCIAL DE LOS PROFESIONALES UNIVERSITARIOS DEL AGUA Y LA ENERGIA ELECTRICA",
+    "sigla": "OSPUAYE",
+    "tipo": "SINDICAL",
+    "provincia": "CAPITAL FEDERAL"
+  },
+  {
+    "nombre": "OBRA SOCIAL FEDERAL DE LA FEDERACION NACIONAL DE TRABAJADORES DE OBRAS SANITARIAS",
+    "sigla": "OSFFENTOS",
+    "tipo": "SINDICAL",
+    "provincia": "CAPITAL FEDERAL"
+  },
+  {
+    "nombre": "OBRA SOCIAL DE LA FEDERACION ARGENTINA DEL TRABAJADOR  DE LAS UNIVERSIDADES NACIONALES",
+    "sigla": "OSFATUN",
+    "tipo": "SINDICAL",
+    "provincia": "CAPITAL FEDERAL"
+  },
+  {
+    "nombre": "OBRA SOCIAL UNION PERSONAL DE LA UNION DEL  PERSONAL CIVIL DE LA NACION",
+    "sigla": "OSPCN",
+    "tipo": "SINDICAL",
+    "provincia": "CAPITAL FEDERAL"
+  },
+  {
+    "nombre": "OBRA SOCIAL DE ARBITROS DEPORTIVOS DE LA REPUBLICA ARGENTINA",
+    "sigla": "OSADRA",
+    "tipo": "SINDICAL",
+    "provincia": "CAPITAL FEDERAL"
+  },
+  {
+    "nombre": "OBRA SOCIAL DE LA FEDERACION GREMIAL DEL PERSONAL DE  LA INDUSTRIA DE LA CARNE Y SUS DERIVADOS",
+    "sigla": "",
+    "tipo": "SINDICAL",
+    "provincia": "CAPITAL FEDERAL"
+  },
+  {
+    "nombre": "OBRA SOCIAL PARA LOS TRABAJADORES DE LA EDUCACION PRIVADA",
+    "sigla": "OSTEP",
+    "tipo": "SINDICAL",
+    "provincia": "CAPITAL FEDERAL"
+  },
+  {
+    "nombre": "OBRA SOCIAL DE LOS EMPLEADOS DE COMERCIO Y ACTIVIDADES CIVILES",
+    "sigla": "OSECAC",
+    "tipo": "SINDICAL",
+    "provincia": "CAPITAL FEDERAL"
+  },
+  {
+    "nombre": "OBRA SOCIAL SERVICIOS SOCIALES BANCARIOS",
+    "sigla": "OSBA",
+    "tipo": "SINDICAL",
+    "provincia": "CAPITAL FEDERAL"
+  },
+  {
+    "nombre": "OBRA SOCIAL DE LA CONFEDERACION DE OBREROS Y EMPLEADOS MUNICIPALES  ARGENTINA ( OSCOEMA )",
+    "sigla": "OSCOEMA",
+    "tipo": "SINDICAL",
+    "provincia": "CAPITAL FEDERAL"
+  },
+  {
+    "nombre": "OBRA SOCIAL DEL PERSONAL DE INDUSTRIAS  QUIMICAS Y PETROQUIMICAS DE ZARATE CAMPANA",
+    "sigla": "OPZC",
+    "tipo": "SINDICAL",
+    "provincia": "BUENOS AIRES"
+  },
+  {
+    "nombre": "OBRA SOCIAL DEL PERSONAL DE LA ACTIVIDAD AZUCARERA TUCUMANA",
+    "sigla": "",
+    "tipo": "NO ESPECIFICADO",
+    "provincia": "TUCUMAN"
+  },
+  {
+    "nombre": "OBRA SOCIAL DE CONDUCTORES DE REMISES Y AUTOS AL INSTANTE Y AFINES",
+    "sigla": "OSCRAIA",
+    "tipo": "SINDICAL",
+    "provincia": "CAPITAL FEDERAL"
+  },
+  {
+    "nombre": "OBRA SOCIAL DE LOS MEDICOS DE LA CIUDAD DE BUENOS AIRES",
+    "sigla": "OSMEDICA",
+    "tipo": "SINDICAL",
+    "provincia": "CAPITAL FEDERAL"
+  },
+  {
+    "nombre": "OBRA SOCIAL DE TRABAJADORES DE ESTACIONES DE SERVICIO",
+    "sigla": "OSTES",
+    "tipo": "NO ESPECIFICADO",
+    "provincia": "MENDOZA"
+  },
+  {
+    "nombre": "OBRA SOCIAL DEL PERSONAL DE TELECOMUNICACIONES SINDICATO BUENOS AIRES",
+    "sigla": "OSPETELCO",
+    "tipo": "SINDICAL",
+    "provincia": "CAPITAL FEDERAL"
+  },
+  {
+    "nombre": "OBRA SOCIAL DE MANDOS MEDIOS DE TELECOMUNICACIONES EN LA REPUBLICA ARGENTINA Y MERCOSUR",
+    "sigla": "OSMMEDT",
+    "tipo": "SINDICAL",
+    "provincia": "CAPITAL FEDERAL"
+  },
+  {
+    "nombre": "OBRA SOCIAL DE LOS TRABAJADORES VIALES Y AFINES DE LA REPUBLICA ARGENTINA",
+    "sigla": "OSTV",
+    "tipo": "SINDICAL",
+    "provincia": "CAPITAL FEDERAL"
+  },
+  {
+    "nombre": "OBRA SOCIAL DE OBREROS Y EMPLEADOS TINTOREROS SOMBREREROS Y LAVADEROS DE LA REPUBLICA ARGENTINA",
+    "sigla": "OSOETSYLARA",
+    "tipo": "SINDICAL",
+    "provincia": "CAPITAL FEDERAL"
+  },
+  {
+    "nombre": "OBRA SOCIAL DE  LAS ASOCIACIONES DE EMPLEADOS DE FARMACIA",
+    "sigla": "OSADEF",
+    "tipo": "SINDICAL",
+    "provincia": "CAPITAL FEDERAL"
+  },
+  {
+    "nombre": "OBRA SOCIAL DEL PERSONAL DE OBRAS Y SERVICIOS SANITARIOS",
+    "sigla": "OSOSS",
+    "tipo": "SINDICAL",
+    "provincia": "CAPITAL FEDERAL"
+  },
+  {
+    "nombre": "OBRA SOCIAL PERSONAL ESTACIONES DE SERVICIO,GARAGES,PLAYAS Y LAVADEROS DE LA PROVINCIA DEL CHACO",
+    "sigla": "OSPESCHA",
+    "tipo": "NO ESPECIFICADO",
+    "provincia": "CHACO"
+  },
+  {
+    "nombre": "OBRA SOCIAL DE LUZ Y FUERZA DE LA PATAGONIA",
+    "sigla": "OSLYF PATAGONIA",
+    "tipo": "NO ESPECIFICADO",
+    "provincia": "CHUBUT"
+  },
+  {
+    "nombre": "OBRA SOCIAL DE PETROLEROS PRIVADOS",
+    "sigla": "OSPEPRI",
+    "tipo": "NO ESPECIFICADO",
+    "provincia": "NEUQUEN"
+  },
+  {
+    "nombre": "OBRA SOCIAL DEL PERSONAL DE LA FEDERACION DE SINDICATOS DE LA INDUSTRIA QUIMICA Y PETROQUIMICA",
+    "sigla": "",
+    "tipo": "SINDICAL",
+    "provincia": "CAPITAL FEDERAL"
+  },
+  {
+    "nombre": "OBRA SOCIAL DE LA UNION DE TRABAJADORES DEL INSTITUTO NACIONAL DE SERVICIOS SOCIALES PARA JUBILADOS Y PENSIONADOS DE LA REPUBLICA ARGENTINA",
+    "sigla": "OSUTI",
+    "tipo": "SINDICAL",
+    "provincia": "CAPITAL FEDERAL"
+  },
+  {
+    "nombre": "OBRA SOCIAL DEL SINDICATO UNICO DE RECOLECTORES DE RESIDUOS Y BARRIDO DE CORDOBA",
+    "sigla": "OSSURRBAC",
+    "tipo": "NO ESPECIFICADO",
+    "provincia": "CORDOBA"
+  },
+  {
+    "nombre": "OBRA SOCIAL PEONES DE TAXIS DE ROSARIO",
+    "sigla": "OSPETAXR",
+    "tipo": "NO ESPECIFICADO",
+    "provincia": "SANTA FE"
+  },
+  {
+    "nombre": "OBRA SOCIAL DEL SINDICATO OBREROS Y EMPLEADOS DE EMPRESAS DE LIMPIEZA,SERVICIOS Y AFINES DE CORDOBA",
+    "sigla": "OSSOELSAC",
+    "tipo": "NO ESPECIFICADO",
+    "provincia": "CORDOBA"
+  },
+  {
+    "nombre": "OBRA SOCIAL DE FARMACEUTICOS Y BIOQUIMICOS",
+    "sigla": "OSFYB",
+    "tipo": "SINDICAL",
+    "provincia": "CAPITAL FEDERAL"
+  },
+  {
+    "nombre": "OBRA SOCIAL DE TRABAJADORES DEL PETROLEO Y GAS PRIVADO DEL CHUBUT",
+    "sigla": "",
+    "tipo": "NO ESPECIFICADO",
+    "provincia": "CHUBUT"
+  },
+  {
+    "nombre": "OBRA SOCIAL DEL PERSONAL DE DRAGADO Y BALIZAMIENTO",
+    "sigla": "OSPEDYB",
+    "tipo": "SINDICAL",
+    "provincia": "CAPITAL FEDERAL"
+  },
+  {
+    "nombre": "OBRA SOCIAL DE LOS TRABAJADORES ARGENTINOS DE CENTROS DE CONTACTOS",
+    "sigla": "OSTACC,",
+    "tipo": "SINDICAL",
+    "provincia": "NO IDENTIFICADA"
+  },
+  {
+    "nombre": "OBRA SOCIAL DE LA ASOCIACION DEL PERSONAL SUPERIOR DE LA EMPRESA PROVINCIAL DE ENERGIA DE CORDOBA",
+    "sigla": "OSAPSE",
+    "tipo": "NO ESPECIFICADO",
+    "provincia": "CORDOBA"
+  },
+  {
+    "nombre": "OBRA SOCIAL DEL PERSONAL DE LA EMPRESA NACIONAL DE CORREOS Y TELEGRAFOS SA Y DE LAS  COMUNICACIONES DE LA REPULICA ARGENTINA",
+    "sigla": "OSPEC",
+    "tipo": "SINDICAL",
+    "provincia": "CAPITAL FEDERAL"
+  },
+  {
+    "nombre": "OBRA SOCIAL CERAS JOHNSON",
+    "sigla": "JOHNSON",
+    "tipo": "SINDICAL",
+    "provincia": "BUENOS AIRES"
+  },
+  {
+    "nombre": "OBRA SOCIAL PARA DIRECTIVOS, TECNICOS Y EMPLEADOS DE JOHN DEERE ARGENTINA",
+    "sigla": "DITEM",
+    "tipo": "NO ESPECIFICADO",
+    "provincia": "SANTA FE"
+  },
+  {
+    "nombre": "OBRA SOCIAL REFINERIAS DE MAIZ SAICF",
+    "sigla": "OSRM",
+    "tipo": "SINDICAL",
+    "provincia": "CAPITAL FEDERAL"
+  },
+  {
+    "nombre": "OBRA SOCIAL SUPERCO",
+    "sigla": "",
+    "tipo": "SINDICAL",
+    "provincia": "CAPITAL FEDERAL"
+  },
+  {
+    "nombre": "OBRA SOCIAL CABOT ARGENTINA",
+    "sigla": "",
+    "tipo": "SINDICAL",
+    "provincia": "BUENOS AIRES"
+  },
+  {
+    "nombre": "OBRA SOCIAL DE SHELL ARGENTINA",
+    "sigla": "",
+    "tipo": "SINDICAL",
+    "provincia": "CAPITAL FEDERAL"
+  },
+  {
+    "nombre": "OBRA SOCIAL DEL PERSONAL DE PBBPOLISUR  SRL DE  BAHIA BLANCA",
+    "sigla": "",
+    "tipo": "SINDICAL",
+    "provincia": "BUENOS AIRES"
+  },
+  {
+    "nombre": "OBRA SOCIAL DE FORD AGENTINA SCA",
+    "sigla": "",
+    "tipo": "SINDICAL",
+    "provincia": "CAPITAL FEDERAL"
+  },
+  {
+    "nombre": "OBRA SOCIAL DE VOLKSWAGEN ARGENTINA SA",
+    "sigla": "",
+    "tipo": "SINDICAL",
+    "provincia": "CAPITAL FEDERAL"
+  },
+  {
+    "nombre": "OBRA SOCIAL DEL PERSONAL DE DIRECCION DE LAS EMPRESAS DE LA ALIMENTACION Y DEMAS ACTIVIDADES EMPRESARIAS",
+    "sigla": "OPDEA",
+    "tipo": "SINDICAL",
+    "provincia": "CAPITAL FEDERAL"
+  },
+  {
+    "nombre": "OBRA SOCIAL DEL PERSONAL DE DIRECCION DE LA INDUSTRIA AUTOMOTRIZ ARGENTINA",
+    "sigla": "OSPREME",
+    "tipo": "SINDICAL",
+    "provincia": "CAPITAL FEDERAL"
+  },
+  {
+    "nombre": "OBRA SOCIAL COOPERATIVA LTDA  DE ASISTENCIA MEDICA Y FARMACEUTICA, SERVICIOS ASISTENCIALES Y TURISMO DEL PERSONAL SUPERIOR DE LA INDUSTRIA DEL CAUCHO Y OTRAS ACTIVIDADES INDUSTRIALES",
+    "sigla": "CAMPSIC",
+    "tipo": "SINDICAL",
+    "provincia": "CAPITAL FEDERAL"
+  },
+  {
+    "nombre": "OBRA SOCIAL DEL PERSONAL DE DIRECCION DE LA INDUSTRIA CERVECERA Y MALTERA",
+    "sigla": "SERVESALUD",
+    "tipo": "SINDICAL",
+    "provincia": "CAPITAL FEDERAL"
+  },
+  {
+    "nombre": "OBRA SOCIAL DE LA ASOCIACION DEL PERSONAL DE DIRECCION Y JERARQUICO DE LA INDUSTRIA DEL CIGARRILLO",
+    "sigla": "APDJIC",
+    "tipo": "SINDICAL",
+    "provincia": "CAPITAL FEDERAL"
+  },
+  {
+    "nombre": "OBRA SOCIAL DEL PERSONAL DIRECTIVO DE LA INDUSTRIA DE LA CONSTRUCCION",
+    "sigla": "OSDIC",
+    "tipo": "SINDICAL",
+    "provincia": "CAPITAL FEDERAL"
+  },
+  {
+    "nombre": "OBRA SOCIAL PERSONAL DE DIRECCION DE LA INDUSTRIA CURTIDORA ARGENTINA",
+    "sigla": "OSPDICA",
+    "tipo": "SINDICAL",
+    "provincia": "CAPITAL FEDERAL"
+  },
+  {
+    "nombre": "OSDE- ORGANIZACION DE SERVICIOS DIRECTOS EMPRESARIOS",
+    "sigla": "OSDE",
+    "tipo": "SINDICAL",
+    "provincia": "CAPITAL FEDERAL"
+  },
+  {
+    "nombre": "OBRA SOCIAL DEL PERSONAL DE DIRECCION  ACCION SOCIAL DE EMPRESARIOS (A:S:E)",
+    "sigla": "ASE",
+    "tipo": "SINDICAL",
+    "provincia": "CAPITAL FEDERAL"
+  },
+  {
+    "nombre": "OBRA SOCIAL DEL PERSONAL DE DIRECCION DE LAS EMPRESAS QUE ACTUAN EN FRUTOS DEL PAIS",
+    "sigla": "FRUTOS",
+    "tipo": "SINDICAL",
+    "provincia": "CAPITAL FEDERAL"
+  },
+  {
+    "nombre": "OBRA SOCIAL DEL PERSONAL DE DIRECCION ALFREDO FORTABAT",
+    "sigla": "OSAF",
+    "tipo": "SINDICAL",
+    "provincia": "CAPITAL FEDERAL"
+  },
+  {
+    "nombre": "OBRA SOCIAL DEL PERSONAL DE DIRECCION DE LA INDUSTRIA METALURGICA  Y DEMAS ACTIVIDADES EMPRESARIAS",
+    "sigla": "OSIM",
+    "tipo": "SINDICAL",
+    "provincia": "CAPITAL FEDERAL"
+  },
+  {
+    "nombre": "OBRA SOCIAL PARA EL PERSONAL DE DIRECCION DE LA INDUSTRIA MADERERA",
+    "sigla": "OSMAD",
+    "tipo": "SINDICAL",
+    "provincia": "CAPITAL FEDERAL"
+  },
+  {
+    "nombre": "OBRA SOCIAL DEL PERSONAL DE DIRECCION DE LA INDUSTRIA PRIVADA DEL PETROLEO",
+    "sigla": "OSDIPP",
+    "tipo": "SINDICAL",
+    "provincia": "CAPITAL FEDERAL"
+  },
+  {
+    "nombre": "OBRA SOCIAL  DE EMPRESARIOS, PROFESIONALES Y MONOTRIBUTISTAS",
+    "sigla": "OSDEPYM",
+    "tipo": "SINDICAL",
+    "provincia": "CAPITAL FEDERAL"
+  },
+  {
+    "nombre": "OBRA SOCIAL ASOCIACION MUTUAL DEL PERSONAL DE PHILIPS ARGENTINA (AMPAR)",
+    "sigla": "AMPAR",
+    "tipo": "SINDICAL",
+    "provincia": "CAPITAL FEDERAL"
+  },
+  {
+    "nombre": "OBRA SOCIAL DEL PERSONAL DE DIRECCION DE PERFUMERIA EW HOPE",
+    "sigla": "WHOPE",
+    "tipo": "SINDICAL",
+    "provincia": "CAPITAL FEDERAL"
+  },
+  {
+    "nombre": "OBRA SOCIAL DEL PERSONAL DE DIRECCION DE SANIDAD LUIS PASTEUR",
+    "sigla": "OSLPASTEUR",
+    "tipo": "SINDICAL",
+    "provincia": "CAPITAL FEDERAL"
+  },
+  {
+    "nombre": "OBRA SOCIAL ASOCIACION DEL PERSONAL DE DIRECCION DE LA INDUSTRIA SIDERURGICA",
+    "sigla": "APDIS",
+    "tipo": "SINDICAL",
+    "provincia": "CAPITAL FEDERAL"
+  },
+  {
+    "nombre": "OBRA SOCIAL MUTUALIDAD INDUSTRIAL TEXTIL ARGENTINA",
+    "sigla": "OSMITA",
+    "tipo": "SINDICAL",
+    "provincia": "CAPITAL FEDERAL"
+  },
+  {
+    "nombre": "OBRA SOCIAL ASOCIACION DEL PERSONAL SUPERIOR DE LA ORGANIZACION TECHINT",
+    "sigla": "APSOT",
+    "tipo": "SINDICAL",
+    "provincia": "CAPITAL FEDERAL"
+  },
+  {
+    "nombre": "OBRA SOCIAL PARA EL PERSONAL DE DIRECCION DE LA INDUSTRIA VITIVINICOLA Y AFINES",
+    "sigla": "OSEDEIV",
+    "tipo": "SINDICAL",
+    "provincia": "CAPITAL FEDERAL"
+  },
+  {
+    "nombre": "OBRA SOCIAL YPF",
+    "sigla": "OSYPF",
+    "tipo": "SINDICAL",
+    "provincia": "CAPITAL FEDERAL"
+  },
+  {
+    "nombre": "OBRA SOCIAL ASOCIACION DE SERVICIOS SOCIALES PARA EMPRESARIOS Y PERSONAL DE DIRECCION DE EMPRESAS DEL COMERCIO, SERVICIOS, PRODUCCION, INDUSTRIA Y CIVIL (ASSPE )",
+    "sigla": "ASSPE",
+    "tipo": "SINDICAL",
+    "provincia": "CAPITAL FEDERAL"
+  },
+  {
+    "nombre": "OBRA SOCIAL DE DIRECCION OSDO",
+    "sigla": "",
+    "tipo": "SINDICAL",
+    "provincia": "CAPITAL FEDERAL"
+  },
+  {
+    "nombre": "OBRA SOCIAL DE DIRECCION DE LA ACTIVIDAD AEROCOMERCIAL  PRIVADA",
+    "sigla": "OSDAAP",
+    "tipo": "SINDICAL",
+    "provincia": "CAPITAL FEDERAL"
+  },
+  {
+    "nombre": "INSTITUTO NACIONAL DE SERVICIOS SOCIALES PARA JUBILADOS Y PENSIONADOS",
+    "sigla": "PAMI",
+    "tipo": "ESTATAL",
+    "provincia": "CAPITAL FEDERAL"
+  },
+  {
+    "nombre": "ASOCIACION DE OBRAS SOCIALES DE COMODORO RIVADAVIA",
+    "sigla": "",
+    "tipo": "NO ESPECIFICADO",
+    "provincia": "CHUBUT"
+  },
+  {
+    "nombre": "ASOCIACION GUALEGUAYCHU DE OBRAS SOCIALES",
+    "sigla": "",
+    "tipo": "NO ESPECIFICADO",
+    "provincia": "ENTRE RIOS"
+  },
+  {
+    "nombre": "ASOCIACION DE OBRAS SOCIALES DE GUALEGUAY",
+    "sigla": "",
+    "tipo": "NO ESPECIFICADO",
+    "provincia": "ENTRE RIOS"
+  },
+  {
+    "nombre": "ASOCIACION DE OBRAS SOCIALES DE ROSARIO",
+    "sigla": "ADOS ROSARIO",
+    "tipo": "NO ESPECIFICADO",
+    "provincia": "SANTA FE"
+  },
+  {
+    "nombre": "ASOCIACION DE OBRAS SOCIALES DE TRELEW",
+    "sigla": "",
+    "tipo": "NO ESPECIFICADO",
+    "provincia": "CHUBUT"
+  },
+  {
+    "nombre": "OBRA SOCIAL DEL PERSONAL MUNICIPAL DE AVELLANEDA",
+    "sigla": "OSPMA",
+    "tipo": "SINDICAL",
+    "provincia": "BUENOS AIRES"
+  },
+  {
+    "nombre": "OBRA SOCIAL DEL PERSONAL MUNICIPAL DE LA MATANZA",
+    "sigla": "OSPMLM",
+    "tipo": "SINDICAL",
+    "provincia": "BUENOS AIRES"
+  },
+  {
+    "nombre": "OBRA SOCIAL PARA EL  PERSONAL MUNICIPAL DE TRES DE FEBRERO",
+    "sigla": "",
+    "tipo": "SINDICAL",
+    "provincia": "BUENOS AIRES"
+  },
+  {
+    "nombre": "OBRA SOCIAL ACEROS PARANA",
+    "sigla": "",
+    "tipo": "SINDICAL",
+    "provincia": "BUENOS AIRES"
+  },
+  {
+    "nombre": "OBRA SOCIAL DEL PERSONAL DE EMPRESAS FIAT Y EMPRESAS PEUGEOT CITROEN ARGENTINA",
+    "sigla": "OSPEF Y EPCA",
+    "tipo": "SINDICAL",
+    "provincia": "CAPITAL FEDERAL"
+  },
+  {
+    "nombre": "ASOCIACION MUTUAL RURALISTA",
+    "sigla": "AMUR",
+    "tipo": "NO ESPECIFICADO",
+    "provincia": "SANTA FE"
+  },
+  {
+    "nombre": "LA CASA DEL MEDICO MUTUAL",
+    "sigla": "",
+    "tipo": "NO ESPECIFICADO",
+    "provincia": "SANTA FE"
+  },
+  {
+    "nombre": "CYNTHIOS SALUD SA",
+    "sigla": "",
+    "tipo": "PREPAGA",
+    "provincia": "CAPITAL FEDERAL"
+  },
+  {
+    "nombre": "SABER SA",
+    "sigla": "SABER SALUD",
+    "tipo": "PREPAGA",
+    "provincia": "BUENOS AIRES"
+  },
+  {
+    "nombre": "PRESTADORES SANATORIALES SA",
+    "sigla": "",
+    "tipo": "NO ESPECIFICADO",
+    "provincia": "MISIONES"
+  },
+  {
+    "nombre": "SWISS MEDICAL SA",
+    "sigla": "SWISS MEDICAL",
+    "tipo": "PREPAGA",
+    "provincia": "CAPITAL FEDERAL"
+  },
+  {
+    "nombre": "ASOCIACION MUTUAL DE SALUD CIUDADELA",
+    "sigla": "",
+    "tipo": "PREPAGA",
+    "provincia": "BUENOS AIRES"
+  },
+  {
+    "nombre": "MEDICUS SOCIEDAD ANONIMA DE ASISTENCIA MEDICA Y CIENTIFICA",
+    "sigla": "MEDICUS",
+    "tipo": "PREPAGA",
+    "provincia": "CAPITAL FEDERAL"
+  },
+  {
+    "nombre": "GALENO ARGENTINA SA",
+    "sigla": "GALENO",
+    "tipo": "PREPAGA",
+    "provincia": "CAPITAL FEDERAL"
+  },
+  {
+    "nombre": "HOSPITAL ALEMAN ASOCIACION CIVIL",
+    "sigla": "",
+    "tipo": "PREPAGA",
+    "provincia": "CAPITAL FEDERAL"
+  },
+  {
+    "nombre": "MEDIFE ASOCIACION CIVIL",
+    "sigla": "MEDIFE",
+    "tipo": "PREPAGA",
+    "provincia": "CAPITAL FEDERAL"
+  },
+  {
+    "nombre": "HOMINIS SA",
+    "sigla": "HOMINIS",
+    "tipo": "PREPAGA",
+    "provincia": "CAPITAL FEDERAL"
+  },
+  {
+    "nombre": "ASISTENCIA SANITARIA INTEGRAL SA",
+    "sigla": "ASI SALUD",
+    "tipo": "PREPAGA",
+    "provincia": "BUENOS AIRES"
+  },
+  {
+    "nombre": "MUTUAL MEDICA CONCORDIA",
+    "sigla": "",
+    "tipo": "NO ESPECIFICADO",
+    "provincia": "ENTRE RIOS"
+  },
+  {
+    "nombre": "ASOCIACION MUTUAL DE PARTICIPANTES DE ECONOMIA SOLIDARIAS",
+    "sigla": "AMPES",
+    "tipo": "NO ESPECIFICADO",
+    "provincia": "MENDOZA"
+  },
+  {
+    "nombre": "SOREMER SA",
+    "sigla": "",
+    "tipo": "NO ESPECIFICADO",
+    "provincia": "TUCUMAN"
+  },
+  {
+    "nombre": "PARQUE SALUD SA",
+    "sigla": "",
+    "tipo": "NO ESPECIFICADO",
+    "provincia": "CORDOBA"
+  },
+  {
+    "nombre": "ASOCIACIÓN MUTUAL SANCOR SALUD",
+    "sigla": "",
+    "tipo": "NO ESPECIFICADO",
+    "provincia": "SANTA FE"
+  },
+  {
+    "nombre": "NATIVUS SRL",
+    "sigla": "",
+    "tipo": "NO ESPECIFICADO",
+    "provincia": "TIERRA DEL FUEGO"
+  },
+  {
+    "nombre": "ASOCIACION MUTUAL DEL PERSONAL, ASESORES Y DIRECTIVOS DE GRUPO SAN NICOLAS SRL",
+    "sigla": "",
+    "tipo": "NO ESPECIFICADO",
+    "provincia": "SANTA FE"
+  },
+  {
+    "nombre": "PLENIMEDICAL SA",
+    "sigla": "",
+    "tipo": "NO ESPECIFICADO",
+    "provincia": "CORDOBA"
+  },
+  {
+    "nombre": "HOSPITAL BRITANICO DE BUENOS AIRES ASOCIACION CIVIL",
+    "sigla": "",
+    "tipo": "PREPAGA",
+    "provincia": "CAPITAL FEDERAL"
+  },
+  {
+    "nombre": "CENTRO DE EDUCACION MEDICA E INVESTIGACIONES CLINICAS NORBERTO QUIRNO - CEMIC",
+    "sigla": "CEMIC",
+    "tipo": "PREPAGA",
+    "provincia": "CAPITAL FEDERAL"
+  },
+  {
+    "nombre": "SOCIEDAD ITALIANA DE BENEFICENCIA EN BUENOS AIRES",
+    "sigla": "",
+    "tipo": "PREPAGA",
+    "provincia": "CAPITAL FEDERAL"
+  },
+  {
+    "nombre": "APRES SA",
+    "sigla": "APRES",
+    "tipo": "PREPAGA",
+    "provincia": "BUENOS AIRES"
+  },
+  {
+    "nombre": "OMINT SOCIEDAD ANÓNlMA DE SERVICIOS",
+    "sigla": "OMINT",
+    "tipo": "PREPAGA",
+    "provincia": "CAPITAL FEDERAL"
+  },
+  {
+    "nombre": "ASOCIACIÓN CIVIL DE ESTUDIOS SUPERIORES (HOSPITAL AUSTRAL)",
+    "sigla": "",
+    "tipo": "PREPAGA",
+    "provincia": "CAPITAL FEDERAL"
+  },
+  {
+    "nombre": "AVALIAN SALUD Y BIENESTAR COOPERATIVA LIMITADA",
+    "sigla": "AVALIAN",
+    "tipo": "PREPAGA",
+    "provincia": "CAPITAL FEDERAL"
+  },
+  {
+    "nombre": "MUTUAL FEDERADA \"25 DE JUNIO\" SOCIEDAD DE PROTECCIÓN RECÍPROCA",
+    "sigla": "",
+    "tipo": "NO ESPECIFICADO",
+    "provincia": "SANTA FE"
+  },
+  {
+    "nombre": "GRUPO DDM SA",
+    "sigla": "PREMEDIC",
+    "tipo": "PREPAGA",
+    "provincia": "CAPITAL FEDERAL"
+  },
+  {
+    "nombre": "ROI SA",
+    "sigla": "DOCTORED",
+    "tipo": "PREPAGA",
+    "provincia": "CAPITAL FEDERAL"
+  },
+  {
+    "nombre": "PREVENCIÓN SALUD SA",
+    "sigla": "",
+    "tipo": "NO ESPECIFICADO",
+    "provincia": "SANTA FE"
+  },
+  {
+    "nombre": "ENSALUD SA",
+    "sigla": "ENSALUD",
+    "tipo": "PREPAGA",
+    "provincia": "CAPITAL FEDERAL"
+  },
+  {
+    "nombre": "SISTEMA INTEGRADO DE PRESTADORES DE SALUD SA",
+    "sigla": "",
+    "tipo": "NO ESPECIFICADO",
+    "provincia": "CORDOBA"
+  },
+  {
+    "nombre": "GERMED SA",
+    "sigla": "",
+    "tipo": "PREPAGA",
+    "provincia": "BUENOS AIRES"
+  },
+  {
+    "nombre": "MET-CORDOBA SA",
+    "sigla": "",
+    "tipo": "NO ESPECIFICADO",
+    "provincia": "CORDOBA"
+  },
+  {
+    "nombre": "GEA SA",
+    "sigla": "",
+    "tipo": "NO ESPECIFICADO",
+    "provincia": "CORDOBA"
+  },
+  {
+    "nombre": "PRIVAMED SA",
+    "sigla": "",
+    "tipo": "PREPAGA",
+    "provincia": "CAPITAL FEDERAL"
+  },
+  {
+    "nombre": "PREMEDICA SA",
+    "sigla": "",
+    "tipo": "NO ESPECIFICADO",
+    "provincia": "CATAMARCA"
+  },
+  {
+    "nombre": "COBERTURA DE SALUD SA",
+    "sigla": "",
+    "tipo": "NO ESPECIFICADO",
+    "provincia": "TUCUMAN"
+  },
+  {
+    "nombre": "ASOCIACION MUTUAL MEDICA DE VILLA MARIA",
+    "sigla": "",
+    "tipo": "NO ESPECIFICADO",
+    "provincia": "CORDOBA"
+  },
+  {
+    "nombre": "MEDYCIN ARGENTINO SA",
+    "sigla": "",
+    "tipo": "PREPAGA",
+    "provincia": "CAPITAL FEDERAL"
+  },
+  {
+    "nombre": "ASOCIACIÓN MUTUAL FRANCO ANDINA",
+    "sigla": "",
+    "tipo": "NO ESPECIFICADO",
+    "provincia": "MENDOZA"
+  },
+  {
+    "nombre": "ASOCIACIÓN MUTUAL DEL CONTROL INTEGRAL",
+    "sigla": "AMCI",
+    "tipo": "PREPAGA",
+    "provincia": "CAPITAL FEDERAL"
+  },
+  {
+    "nombre": "SCIS SA",
+    "sigla": "",
+    "tipo": "PREPAGA",
+    "provincia": "CAPITAL FEDERAL"
+  },
+  {
+    "nombre": "NOBIS SA",
+    "sigla": "",
+    "tipo": "NO ESPECIFICADO",
+    "provincia": "CORDOBA"
+  },
+  {
+    "nombre": "ADMINISTRACIÓN RECURSOS PARA SALUD SA",
+    "sigla": "",
+    "tipo": "NO ESPECIFICADO",
+    "provincia": "CORDOBA"
+  },
+  {
+    "nombre": "AMSTERDAM SALUD SA",
+    "sigla": "",
+    "tipo": "NO ESPECIFICADO",
+    "provincia": "TUCUMAN"
+  },
+  {
+    "nombre": "CIRCULO MEDICO DE LOMAS DE ZAMORA",
+    "sigla": "",
+    "tipo": "PREPAGA",
+    "provincia": "BUENOS AIRES"
+  },
+  {
+    "nombre": "GILSA SRL",
+    "sigla": "",
+    "tipo": "PREPAGA",
+    "provincia": "BUENOS AIRES"
+  },
+  {
+    "nombre": "ASOCIACION MUTUAL DE FARMACEUTICOS FLORENTINO AMEGHINO",
+    "sigla": "AMFFA",
+    "tipo": "PREPAGA",
+    "provincia": "BUENOS AIRES"
+  },
+  {
+    "nombre": "AGRUPACION SANATORIAL SUR SA",
+    "sigla": "",
+    "tipo": "PREPAGA",
+    "provincia": "CAPITAL FEDERAL"
+  },
+  {
+    "nombre": "MUTUAL DEL PERSONAL DEL CENTRO INDUSTRIAL ACINDAR",
+    "sigla": "",
+    "tipo": "NO ESPECIFICADO",
+    "provincia": "SANTA FE"
+  },
+  {
+    "nombre": "GRUPO MÉDICO INCAS SA",
+    "sigla": "",
+    "tipo": "PREPAGA",
+    "provincia": "CAPITAL FEDERAL"
+  }
+]

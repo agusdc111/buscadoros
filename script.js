@@ -1,25 +1,112 @@
+// ==========================
+// 🔧 CONFIGURACIÓN
+// ==========================
+
+// ⚠️ Cambiar por tu IP o dominio del VPS
+// IMPORTANTE: sin barra al final
+const API_BASE = 'https://ssh.ccomisiones.com';
+
 // Base de datos de obras sociales
 let obrasSociales = [];
 
-// Cargar datos
-async function cargarDatos() {
-    try {
-        const response = await fetch('obras-sociales.json');
-        obrasSociales = await response.json();
-        actualizarEstadisticas();
-    } catch (error) {
-        console.error('Error al cargar los datos:', error);
-        document.getElementById('stats').innerHTML = '<p>Error al cargar la base de datos. Por favor, asegúrate de tener el archivo obras-sociales.json</p>';
+// Elementos del DOM
+const statusEl = document.getElementById('connectionStatus');
+const searchInput = document.getElementById('searchInput');
+const clearButton = document.getElementById('clearButton');
+const suggestionsDiv = document.getElementById('suggestions');
+const resultsDiv = document.getElementById('results');
+const statsDiv = document.getElementById('stats');
+
+// ==========================
+// 📡 ESTADO DE CONEXIÓN
+// ==========================
+
+function setConnectionStatus(status, message) {
+    if (!statusEl) return;
+    
+    statusEl.className = 'connection-status';
+    const statusText = statusEl.querySelector('.status-text');
+    
+    if (status === 'connected') {
+        statusEl.classList.add('connected');
+        statusText.textContent = message || 'Conectado al servidor';
+    } else if (status === 'error') {
+        statusEl.classList.add('error');
+        statusText.textContent = message || 'Error de conexión';
+    } else {
+        statusText.textContent = message || 'Conectando...';
     }
 }
 
-// Actualizar estadísticas
-function actualizarEstadisticas() {
-    const stats = document.getElementById('stats');
-    stats.innerHTML = `<p>Base de datos con ${obrasSociales.length} obras sociales disponibles</p>`;
+// ==========================
+// 📥 CARGAR DATOS DESDE VPS
+// ==========================
+
+async function cargarDatos() {
+    try {
+        console.log('🔄 Cargando obras sociales desde:', `${API_BASE}/obras-sociales`);
+        setConnectionStatus('loading', 'Cargando...');
+        
+        const response = await fetch(`${API_BASE}/obras-sociales`, {
+            method: 'GET',
+            headers: { 'Accept': 'application/json' }
+        });
+        
+        if (!response.ok) {
+            throw new Error(`Error HTTP ${response.status}`);
+        }
+        
+        obrasSociales = await response.json();
+        console.log('✅ Obras sociales cargadas desde VPS:', obrasSociales.length);
+        
+        setConnectionStatus('connected', 'Servidor conectado');
+        actualizarEstadisticas();
+        
+    } catch (error) {
+        console.error('❌ Error al cargar desde VPS:', error);
+        setConnectionStatus('error', 'Usando cache local');
+        
+        // Fallback: intentar cargar desde archivo local
+        try {
+            console.log('🔄 Intentando cargar desde archivo local...');
+            const response = await fetch('obras-sociales.json');
+            obrasSociales = await response.json();
+            console.log('✅ Cargado desde archivo local:', obrasSociales.length);
+            actualizarEstadisticas();
+        } catch (localError) {
+            console.error('❌ Error al cargar archivo local:', localError);
+            statsDiv.innerHTML = '<div class="stats-content" style="color: #ef4444;">⚠️ Error al cargar la base de datos</div>';
+        }
+    }
 }
 
-// Normalizar texto para búsqueda (quitar acentos, mayúsculas, etc.)
+// ==========================
+// 📊 ACTUALIZAR ESTADÍSTICAS
+// ==========================
+
+function actualizarEstadisticas() {
+    const total = obrasSociales.length;
+    const sindicales = obrasSociales.filter(o => o.tipo && o.tipo.toUpperCase().includes('SINDICAL')).length;
+    const prepagas = obrasSociales.filter(o => o.tipo && o.tipo.toUpperCase().includes('PREPAGA')).length;
+    const estatales = obrasSociales.filter(o => o.tipo && o.tipo.toUpperCase().includes('ESTATAL')).length;
+    
+    statsDiv.innerHTML = `
+        <div class="stats-content">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M3 3h7v7H3z"></path>
+                <path d="M14 3h7v7h-7z"></path>
+                <path d="M14 14h7v7h-7z"></path>
+                <path d="M3 14h7v7H3z"></path>
+            </svg>
+            <span>${total} obras sociales • ${sindicales} sindicales • ${prepagas} prepagas • ${estatales} estatales</span>
+        </div>
+    `;
+}
+
+// ==========================
+// 🔍 NORMALIZAR TEXTO
+// ==========================
+
 function normalizarTexto(texto) {
     return texto
         .toLowerCase()
@@ -28,7 +115,10 @@ function normalizarTexto(texto) {
         .trim();
 }
 
-// Buscar obras sociales con scoring para mejor relevancia
+// ==========================
+// 🔎 BÚSQUEDA CON SCORING
+// ==========================
+
 function buscarObrasSociales(termino) {
     if (!termino || termino.length < 2) {
         return [];
@@ -36,32 +126,28 @@ function buscarObrasSociales(termino) {
 
     const terminoNormalizado = normalizarTexto(termino);
     
-    // Buscar y asignar score a cada resultado
     const resultados = obrasSociales.map(obra => {
         let score = 0;
         let coincide = false;
         
         const nombreNormalizado = normalizarTexto(obra.nombre);
         
-        // Buscar en las siglas (separadas por comas)
+        // Buscar en las siglas
         if (obra.sigla) {
             const siglas = obra.sigla.split(',').map(s => s.trim());
             
             for (const sigla of siglas) {
                 const siglaNormalizada = normalizarTexto(sigla);
                 
-                // Coincidencia exacta en sigla = máxima prioridad
                 if (siglaNormalizada === terminoNormalizado) {
                     score = 1000;
                     coincide = true;
                     break;
                 }
-                // Sigla comienza con el término = alta prioridad
                 else if (siglaNormalizada.startsWith(terminoNormalizado)) {
                     score = Math.max(score, 500);
                     coincide = true;
                 }
-                // Sigla contiene el término = media prioridad
                 else if (siglaNormalizada.includes(terminoNormalizado)) {
                     score = Math.max(score, 250);
                     coincide = true;
@@ -69,7 +155,7 @@ function buscarObrasSociales(termino) {
             }
         }
         
-        // Buscar en el nombre (menor prioridad que siglas)
+        // Buscar en el nombre
         if (nombreNormalizado === terminoNormalizado) {
             score = Math.max(score, 800);
             coincide = true;
@@ -92,19 +178,18 @@ function buscarObrasSociales(termino) {
     return resultados;
 }
 
-// Mostrar sugerencias
+// ==========================
+// 💡 MOSTRAR SUGERENCIAS
+// ==========================
+
 function mostrarSugerencias(resultados) {
-    const suggestionsDiv = document.getElementById('suggestions');
-    
     if (resultados.length === 0) {
         suggestionsDiv.classList.remove('show');
         return;
     }
     
     suggestionsDiv.innerHTML = '';
-    
-    // Limitar a 8 sugerencias
-    const limitadas = resultados.slice(0, 8);
+    const limitadas = resultados.slice(0, 10);
     
     limitadas.forEach(obra => {
         const item = document.createElement('div');
@@ -123,7 +208,7 @@ function mostrarSugerencias(resultados) {
         
         item.addEventListener('click', () => {
             mostrarResultado(obra);
-            document.getElementById('searchInput').value = obra.nombre;
+            searchInput.value = obra.nombre;
             suggestionsDiv.classList.remove('show');
         });
         
@@ -133,11 +218,11 @@ function mostrarSugerencias(resultados) {
     suggestionsDiv.classList.add('show');
 }
 
-// Mostrar resultado seleccionado
+// ==========================
+// 📋 MOSTRAR RESULTADO
+// ==========================
+
 function mostrarResultado(obra) {
-    const resultsDiv = document.getElementById('results');
-    
-    // Determinar clase de tipo
     let tipoClase = '';
     let tipoTexto = obra.tipo || 'NO ESPECIFICADO';
     
@@ -148,7 +233,6 @@ function mostrarResultado(obra) {
     } else if (tipoTexto.toUpperCase().includes('ESTATAL')) {
         tipoClase = 'type-estatal';
     } else if (tipoTexto === 'NO ESPECIFICADO' || tipoTexto === '') {
-        // Para casos sin tipo definido, intentar determinar por nombre
         const nombreUpper = obra.nombre.toUpperCase();
         if (nombreUpper.includes('OSDE') || nombreUpper.includes('SWISS') || nombreUpper.includes('MEDICUS') || nombreUpper.includes('GALENO')) {
             tipoClase = 'type-prepaga';
@@ -167,7 +251,7 @@ function mostrarResultado(obra) {
             <div class="result-type ${tipoClase}">${tipoTexto}</div>
             ${obra.sigla ? `
                 <div class="result-siglas">
-                    <div class="result-siglas-title">También conocida como:</div>
+                    <div class="result-siglas-title">También conocida como</div>
                     <div class="result-siglas-list">${obra.sigla}</div>
                 </div>
             ` : ''}
@@ -177,10 +261,11 @@ function mostrarResultado(obra) {
     resultsDiv.classList.add('show');
 }
 
-// Mostrar "sin resultados"
+// ==========================
+// ❌ SIN RESULTADOS
+// ==========================
+
 function mostrarSinResultados() {
-    const resultsDiv = document.getElementById('results');
-    
     resultsDiv.innerHTML = `
         <div class="no-results">
             <div class="no-results-icon">🔍</div>
@@ -192,20 +277,44 @@ function mostrarSinResultados() {
     resultsDiv.classList.add('show');
 }
 
-// Event listeners
+// ==========================
+// 🎬 REALIZAR BÚSQUEDA
+// ==========================
+
+function realizarBusqueda() {
+    const termino = searchInput.value;
+    
+    if (termino.length < 2) {
+        return;
+    }
+    
+    const resultados = buscarObrasSociales(termino);
+    suggestionsDiv.classList.remove('show');
+    
+    if (resultados.length > 0) {
+        mostrarResultado(resultados[0]);
+    } else {
+        mostrarSinResultados();
+    }
+}
+
+// ==========================
+// 🎯 EVENT LISTENERS
+// ==========================
+
 document.addEventListener('DOMContentLoaded', () => {
     cargarDatos();
-    
-    const searchInput = document.getElementById('searchInput');
-    const searchButton = document.getElementById('searchButton');
-    const suggestionsDiv = document.getElementById('suggestions');
     
     // Búsqueda mientras se escribe
     searchInput.addEventListener('input', (e) => {
         const termino = e.target.value;
         
+        // Mostrar/ocultar botón de limpiar
+        clearButton.style.display = termino ? 'flex' : 'none';
+        
         if (termino.length < 2) {
             suggestionsDiv.classList.remove('show');
+            resultsDiv.classList.remove('show');
             return;
         }
         
@@ -220,8 +329,14 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     });
     
-    // Búsqueda al hacer clic en el botón
-    searchButton.addEventListener('click', realizarBusqueda);
+    // Botón limpiar
+    clearButton.addEventListener('click', () => {
+        searchInput.value = '';
+        clearButton.style.display = 'none';
+        suggestionsDiv.classList.remove('show');
+        resultsDiv.classList.remove('show');
+        searchInput.focus();
+    });
     
     // Cerrar sugerencias al hacer clic fuera
     document.addEventListener('click', (e) => {
@@ -231,22 +346,14 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 });
 
-// Realizar búsqueda completa
-function realizarBusqueda() {
-    const termino = document.getElementById('searchInput').value;
-    const suggestionsDiv = document.getElementById('suggestions');
-    
-    if (termino.length < 2) {
-        return;
+// ==========================
+// 🔄 RECONEXIÓN AUTOMÁTICA
+// ==========================
+
+// Intentar reconectar cada 30 segundos si hay error
+setInterval(() => {
+    if (statusEl && statusEl.classList.contains('error')) {
+        console.log('🔄 Intentando reconectar...');
+        cargarDatos();
     }
-    
-    const resultados = buscarObrasSociales(termino);
-    
-    suggestionsDiv.classList.remove('show');
-    
-    if (resultados.length > 0) {
-        mostrarResultado(resultados[0]);
-    } else {
-        mostrarSinResultados();
-    }
-}
+}, 30000);
